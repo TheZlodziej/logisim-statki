@@ -99,95 +99,51 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(540,120)" to="(550,120)"/>
     <wire from="(580,110)" to="(590,110)"/>
     <wire from="(620,120)" to="(630,120)"/>
-    <comp lib="1" loc="(780,150)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(620,210)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="RIGHT"/>
-    </comp>
-    <comp lib="0" loc="(780,430)" name="Tunnel">
-      <a name="label" val="RIGHT"/>
-    </comp>
-    <comp lib="5" loc="(170,330)" name="DotMatrix">
-      <a name="matrixcols" val="32"/>
-      <a name="matrixrows" val="32"/>
-    </comp>
-    <comp lib="6" loc="(558,85)" name="Text">
-      <a name="text" val="X POSITION"/>
-    </comp>
-    <comp lib="1" loc="(580,110)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(561,34)" name="Text">
-      <a name="text" val="FIELD SIZE X"/>
-    </comp>
-    <comp lib="0" loc="(780,370)" name="Tunnel">
-      <a name="label" val="UP"/>
-    </comp>
-    <comp lib="0" loc="(760,210)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="UP"/>
-    </comp>
-    <comp lib="0" loc="(630,120)" name="Tunnel">
-      <a name="width" val="5"/>
-      <a name="label" val="XPOS"/>
-    </comp>
-    <comp lib="0" loc="(720,50)" name="Constant">
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="0" loc="(570,300)" name="Clock">
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="3" loc="(150,350)" name="Multiplier">
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="1" loc="(600,150)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(170,470)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="FIELD_SIZE_X"/>
-    </comp>
-    <comp lib="0" loc="(720,100)" name="Constant"/>
-    <comp lib="0" loc="(320,500)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(100,340)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="XPOS"/>
-    </comp>
-    <comp lib="0" loc="(560,50)" name="Tunnel">
-      <a name="width" val="5"/>
-      <a name="label" val="FIELD_SIZE_X"/>
-    </comp>
-    <comp lib="0" loc="(780,410)" name="Tunnel">
-      <a name="label" val="LEFT"/>
-    </comp>
-    <comp lib="3" loc="(220,460)" name="Multiplier">
+    <comp lib="0" loc="(540,50)" name="Constant">
       <a name="width" val="5"/>
     </comp>
     <comp lib="0" loc="(780,390)" name="Tunnel">
       <a name="label" val="DOWN"/>
     </comp>
-    <comp lib="6" loc="(764,84)" name="Text">
+    <comp lib="0" loc="(170,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="YPOS"/>
+    </comp>
+    <comp lib="0" loc="(760,210)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="UP"/>
+    </comp>
+    <comp lib="0" loc="(570,300)" name="Clock">
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="4" loc="(800,120)" name="Counter">
+      <a name="width" val="5"/>
+      <a name="max" val="0x1f"/>
+    </comp>
+    <comp lib="0" loc="(560,50)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="FIELD_SIZE_X"/>
+    </comp>
+    <comp lib="0" loc="(620,210)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="RIGHT"/>
+    </comp>
+    <comp lib="0" loc="(630,120)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="XPOS"/>
+    </comp>
+    <comp lib="4" loc="(620,120)" name="Counter">
+      <a name="width" val="5"/>
+      <a name="max" val="0x1f"/>
+    </comp>
+    <comp lib="0" loc="(780,370)" name="Tunnel">
+      <a name="label" val="UP"/>
+    </comp>
+    <comp lib="6" loc="(740,84)" name="Text">
       <a name="text" val="Y POSITION"/>
     </comp>
-    <comp lib="0" loc="(540,50)" name="Constant">
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="0" loc="(800,210)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="DOWN"/>
-    </comp>
+    <comp lib="0" loc="(720,100)" name="Constant"/>
     <comp lib="2" loc="(330,370)" name="Demultiplexer">
       <a name="facing" val="north"/>
       <a name="select" val="5"/>
@@ -197,39 +153,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
       <a name="label" val="LEFT"/>
     </comp>
-    <comp lib="0" loc="(100,360)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="FIELD_SIZE_Y"/>
-    </comp>
-    <comp lib="4" loc="(620,120)" name="Counter">
-      <a name="width" val="5"/>
-      <a name="max" val="0x1f"/>
-    </comp>
-    <comp lib="7" loc="(580,320)" name="main"/>
-    <comp lib="0" loc="(810,120)" name="Tunnel">
-      <a name="width" val="5"/>
-      <a name="label" val="YPOS"/>
-    </comp>
-    <comp lib="0" loc="(540,130)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="LEFT"/>
-    </comp>
-    <comp lib="1" loc="(760,110)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(220,410)" name="Constant">
-      <a name="width" val="32"/>
-      <a name="value" val="0xe0000000"/>
-    </comp>
-    <comp lib="0" loc="(540,100)" name="Constant"/>
-    <comp lib="4" loc="(800,120)" name="Counter">
-      <a name="width" val="5"/>
-      <a name="max" val="0x1f"/>
-    </comp>
-    <comp lib="5" loc="(590,300)" name="Keyboard">
-      <a name="buflen" val="7"/>
+    <comp lib="5" loc="(170,330)" name="DotMatrix">
+      <a name="matrixcols" val="32"/>
+      <a name="matrixrows" val="32"/>
     </comp>
     <comp lib="6" loc="(741,34)" name="Text">
       <a name="text" val="FIELD SIZE Y"/>
@@ -238,16 +164,90 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="32"/>
       <a name="shift" val="lr"/>
     </comp>
+    <comp lib="3" loc="(150,350)" name="Multiplier">
+      <a name="width" val="5"/>
+    </comp>
     <comp lib="0" loc="(720,130)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="UP"/>
     </comp>
-    <comp lib="0" loc="(170,450)" name="Tunnel">
-      <a name="facing" val="east"/>
+    <comp lib="0" loc="(720,50)" name="Constant">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(810,120)" name="Tunnel">
       <a name="width" val="5"/>
       <a name="label" val="YPOS"/>
     </comp>
+    <comp lib="1" loc="(760,110)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(800,210)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="DOWN"/>
+    </comp>
+    <comp lib="3" loc="(220,460)" name="Multiplier">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="6" loc="(558,85)" name="Text">
+      <a name="text" val="X POSITION"/>
+    </comp>
+    <comp lib="1" loc="(780,150)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(540,100)" name="Constant"/>
     <comp lib="0" loc="(740,50)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="FIELD_SIZE_Y"/>
+    </comp>
+    <comp lib="7" loc="(580,320)" name="main"/>
+    <comp lib="5" loc="(590,300)" name="Keyboard">
+      <a name="buflen" val="7"/>
+    </comp>
+    <comp lib="0" loc="(320,500)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(780,430)" name="Tunnel">
+      <a name="label" val="RIGHT"/>
+    </comp>
+    <comp lib="0" loc="(780,410)" name="Tunnel">
+      <a name="label" val="LEFT"/>
+    </comp>
+    <comp lib="6" loc="(561,34)" name="Text">
+      <a name="text" val="FIELD SIZE X"/>
+    </comp>
+    <comp lib="0" loc="(170,470)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="FIELD_SIZE_X"/>
+    </comp>
+    <comp lib="0" loc="(100,340)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="XPOS"/>
+    </comp>
+    <comp lib="0" loc="(540,130)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="LEFT"/>
+    </comp>
+    <comp lib="0" loc="(220,410)" name="Constant">
+      <a name="width" val="32"/>
+      <a name="value" val="0xe0000000"/>
+    </comp>
+    <comp lib="1" loc="(600,150)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(580,110)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(100,360)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="width" val="5"/>
       <a name="label" val="FIELD_SIZE_Y"/>
     </comp>

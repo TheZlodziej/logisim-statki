@@ -87,28 +87,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(520,350)" to="(530,350)"/>
     <wire from="(520,730)" to="(530,730)"/>
     <wire from="(380,90)" to="(450,90)"/>
-    <comp lib="0" loc="(220,170)" name="Tunnel">
+    <comp lib="5" loc="(920,710)" name="DotMatrix">
+      <a name="matrixcols" val="32"/>
+      <a name="matrixrows" val="32"/>
+      <a name="persist" val="600"/>
+    </comp>
+    <comp lib="0" loc="(30,20)" name="Clock"/>
+    <comp lib="2" loc="(1080,370)" name="Demultiplexer">
       <a name="facing" val="north"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(450,90)" name="Tunnel">
+      <a name="select" val="5"/>
       <a name="width" val="32"/>
-      <a name="label" val="LB"/>
-    </comp>
-    <comp lib="0" loc="(420,80)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="RT"/>
-    </comp>
-    <comp lib="4" loc="(40,90)" name="Counter">
-      <a name="width" val="7"/>
-      <a name="max" val="0x7f"/>
-    </comp>
-    <comp lib="0" loc="(1090,380)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="RT"/>
-    </comp>
-    <comp lib="0" loc="(40,20)" name="Tunnel">
-      <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(700,380)" name="Tunnel">
       <a name="width" val="32"/>
@@ -119,29 +107,29 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="select" val="2"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1090,760)" name="Tunnel">
+    <comp lib="0" loc="(390,70)" name="Tunnel">
       <a name="width" val="32"/>
-      <a name="label" val="RB"/>
+      <a name="label" val="LT"/>
     </comp>
-    <comp lib="5" loc="(920,710)" name="DotMatrix">
+    <comp lib="5" loc="(530,330)" name="DotMatrix">
       <a name="matrixcols" val="32"/>
       <a name="matrixrows" val="32"/>
       <a name="persist" val="600"/>
     </comp>
-    <comp lib="0" loc="(320,60)" name="Tunnel">
-      <a name="width" val="5"/>
-      <a name="label" val="COL"/>
+    <comp lib="2" loc="(1080,750)" name="Demultiplexer">
+      <a name="facing" val="north"/>
+      <a name="select" val="5"/>
+      <a name="width" val="32"/>
     </comp>
+    <comp lib="7" loc="(200,120)" name="main"/>
     <comp lib="0" loc="(910,730)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="5"/>
       <a name="label" val="COL"/>
     </comp>
-    <comp lib="0" loc="(30,20)" name="Clock"/>
-    <comp lib="5" loc="(920,330)" name="DotMatrix">
-      <a name="matrixcols" val="32"/>
-      <a name="matrixrows" val="32"/>
-      <a name="persist" val="600"/>
+    <comp lib="0" loc="(1090,380)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="RT"/>
     </comp>
     <comp lib="2" loc="(690,370)" name="Demultiplexer">
       <a name="facing" val="north"/>
@@ -153,15 +141,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="5"/>
       <a name="label" val="COL"/>
     </comp>
-    <comp lib="2" loc="(1080,750)" name="Demultiplexer">
-      <a name="facing" val="north"/>
-      <a name="select" val="5"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(480,100)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="RB"/>
-    </comp>
     <comp lib="2" loc="(690,750)" name="Demultiplexer">
       <a name="facing" val="north"/>
       <a name="select" val="5"/>
@@ -171,6 +150,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="matrixcols" val="32"/>
       <a name="matrixrows" val="32"/>
       <a name="persist" val="600"/>
+    </comp>
+    <comp lib="0" loc="(420,80)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="RT"/>
+    </comp>
+    <comp lib="0" loc="(320,60)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="COL"/>
+    </comp>
+    <comp lib="0" loc="(480,100)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="RB"/>
     </comp>
     <comp lib="4" loc="(190,90)" name="ROM">
       <a name="addrWidth" val="7"/>
@@ -189,34 +180,43 @@ b0410410 50410410 10410410 1fffffff 10410410 f0410410 f0410410 b0410410
 5*41041041 ffffffff 5*41041041 ffffffff 5*41041041 ffffffff 5*41041041 ffffffff
 </a>
     </comp>
+    <comp lib="0" loc="(220,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(450,90)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="LB"/>
+    </comp>
+    <comp lib="0" loc="(40,20)" name="Tunnel">
+      <a name="label" val="CLK"/>
+    </comp>
     <comp lib="0" loc="(520,730)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="5"/>
       <a name="label" val="COL"/>
     </comp>
-    <comp lib="7" loc="(200,120)" name="main"/>
+    <comp lib="0" loc="(1090,760)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="RB"/>
+    </comp>
+    <comp lib="0" loc="(700,760)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="LB"/>
+    </comp>
+    <comp lib="5" loc="(920,330)" name="DotMatrix">
+      <a name="matrixcols" val="32"/>
+      <a name="matrixrows" val="32"/>
+      <a name="persist" val="600"/>
+    </comp>
     <comp lib="0" loc="(520,350)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="5"/>
       <a name="label" val="COL"/>
     </comp>
-    <comp lib="5" loc="(530,330)" name="DotMatrix">
-      <a name="matrixcols" val="32"/>
-      <a name="matrixrows" val="32"/>
-      <a name="persist" val="600"/>
-    </comp>
-    <comp lib="2" loc="(1080,370)" name="Demultiplexer">
-      <a name="facing" val="north"/>
-      <a name="select" val="5"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(390,70)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="LT"/>
-    </comp>
-    <comp lib="0" loc="(700,760)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="LB"/>
+    <comp lib="4" loc="(40,90)" name="Counter">
+      <a name="width" val="7"/>
+      <a name="max" val="0x7f"/>
     </comp>
   </circuit>
 </project>

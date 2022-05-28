@@ -5,6 +5,6 @@
 ### (4x1)x1, (3x1)x2, (2x1)x3, (1x1)x4
 
 ## zapisywanie statków
-### pamięc {6 bit x + 6 bit y + rodzaj statku 2 bity + obrocony? 1 bit, zatopiony? 4 bit} x10
+### pamięc {4 bit x + 4 bit y + rodzaj statku 2 bity + obrocony? 1 bit, zatopiony? 4 bit} x10
 
 ## czas rozgrywki

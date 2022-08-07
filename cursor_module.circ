@@ -77,38 +77,40 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <rect fill="none" height="280" stroke="#000000" stroke-width="2" width="160" x="40" y="50"/>
+      <rect fill="none" height="300" stroke="#000000" stroke-width="2" width="160" x="40" y="50"/>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="120" y="66">KYEBOARD</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="304">CLK</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="324">CLK</text>
       <polyline fill="none" points="40,70 199,70" stroke="#000000"/>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="154" y="94">CURSOR_X</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="155" y="94">CURSOR_X</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="155" y="115">CURSOR_Y</text>
-      <polyline fill="none" points="199,130 40,130" stroke="#000000"/>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="168" y="155">TL_SEL</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="174">TR_SEL</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="170" y="193">BL_SEL</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="171" y="213">BR_SEL</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="165" y="255">TL_DATA</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="164" y="275">TR_DATA</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="164" y="294">BL_DATA</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="163" y="314">BR_DATA</text>
-      <polyline fill="none" points="130,131 130,329" stroke="#000000"/>
-      <polyline fill="none" points="130,230 199,230" stroke="#000000"/>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="82" y="147">CURSOR</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="81" y="159">MODULE</text>
-      <circ-port height="10" pin="160,610" width="10" x="195" y="85"/>
-      <circ-port height="10" pin="160,630" width="10" x="195" y="105"/>
-      <circ-port height="8" pin="50,40" width="8" x="36" y="296"/>
+      <polyline fill="none" points="199,150 40,150" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="168" y="175">TL_SEL</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="194">TR_SEL</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="170" y="213">BL_SEL</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="171" y="233">BR_SEL</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="165" y="275">TL_DATA</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="164" y="295">TR_DATA</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="164" y="314">BL_DATA</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="163" y="334">BR_DATA</text>
+      <polyline fill="none" points="130,151 130,349" stroke="#000000"/>
+      <polyline fill="none" points="130,250 199,250" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="82" y="167">CURSOR</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="81" y="179">MODULE</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="161" y="134">CONFIRM</text>
+      <circ-port height="10" pin="170,640" width="10" x="195" y="85"/>
+      <circ-port height="10" pin="170,660" width="10" x="195" y="105"/>
+      <circ-port height="8" pin="50,40" width="8" x="36" y="316"/>
       <circ-port height="8" pin="250,390" width="8" x="176" y="46"/>
       <circ-port height="8" pin="130,410" width="8" x="56" y="46"/>
-      <circ-port height="10" pin="160,660" width="10" x="195" y="145"/>
-      <circ-port height="10" pin="160,680" width="10" x="195" y="165"/>
-      <circ-port height="10" pin="160,700" width="10" x="195" y="185"/>
-      <circ-port height="10" pin="160,720" width="10" x="195" y="205"/>
-      <circ-port height="10" pin="530,450" width="10" x="195" y="245"/>
-      <circ-port height="10" pin="530,530" width="10" x="195" y="265"/>
-      <circ-port height="10" pin="530,610" width="10" x="195" y="285"/>
-      <circ-port height="10" pin="530,690" width="10" x="195" y="305"/>
+      <circ-port height="10" pin="170,690" width="10" x="195" y="165"/>
+      <circ-port height="10" pin="170,710" width="10" x="195" y="185"/>
+      <circ-port height="10" pin="170,730" width="10" x="195" y="205"/>
+      <circ-port height="10" pin="170,750" width="10" x="195" y="225"/>
+      <circ-port height="10" pin="530,450" width="10" x="195" y="265"/>
+      <circ-port height="10" pin="530,530" width="10" x="195" y="285"/>
+      <circ-port height="10" pin="530,610" width="10" x="195" y="305"/>
+      <circ-port height="10" pin="530,690" width="10" x="195" y="325"/>
+      <circ-port height="10" pin="170,780" width="10" x="195" y="125"/>
       <circ-anchor facing="east" height="6" width="6" x="37" y="47"/>
     </appear>
     <wire from="(640,120)" to="(640,130)"/>
@@ -132,9 +134,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(300,520)" to="(310,520)"/>
     <wire from="(300,500)" to="(310,500)"/>
     <wire from="(300,540)" to="(310,540)"/>
+    <wire from="(300,560)" to="(310,560)"/>
     <wire from="(130,410)" to="(140,410)"/>
-    <wire from="(150,610)" to="(160,610)"/>
-    <wire from="(150,630)" to="(160,630)"/>
+    <wire from="(160,640)" to="(170,640)"/>
+    <wire from="(160,660)" to="(170,660)"/>
+    <wire from="(160,780)" to="(170,780)"/>
     <wire from="(250,390)" to="(260,390)"/>
     <wire from="(80,100)" to="(90,100)"/>
     <wire from="(80,140)" to="(90,140)"/>
@@ -150,10 +154,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(810,160)" to="(810,170)"/>
     <wire from="(140,410)" to="(140,430)"/>
     <wire from="(260,390)" to="(260,430)"/>
-    <wire from="(150,660)" to="(160,660)"/>
-    <wire from="(150,700)" to="(160,700)"/>
-    <wire from="(150,680)" to="(160,680)"/>
-    <wire from="(150,720)" to="(160,720)"/>
+    <wire from="(160,690)" to="(170,690)"/>
+    <wire from="(160,730)" to="(170,730)"/>
+    <wire from="(160,710)" to="(170,710)"/>
+    <wire from="(160,750)" to="(170,750)"/>
     <wire from="(230,180)" to="(240,180)"/>
     <wire from="(50,40)" to="(60,40)"/>
     <wire from="(800,170)" to="(810,170)"/>
@@ -164,56 +168,43 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(520,690)" to="(530,690)"/>
     <wire from="(620,90)" to="(630,90)"/>
     <wire from="(620,170)" to="(630,170)"/>
-    <comp lib="0" loc="(430,120)" name="Tunnel">
-      <a name="width" val="5"/>
-      <a name="label" val="TR_SEL"/>
-    </comp>
-    <comp lib="0" loc="(430,240)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="BL_DATA"/>
-    </comp>
-    <comp lib="0" loc="(150,660)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="TL_SEL"/>
-    </comp>
-    <comp lib="0" loc="(520,690)" name="Tunnel">
+    <comp lib="0" loc="(520,450)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="30"/>
-      <a name="label" val="BR_DATA"/>
+      <a name="label" val="TL_DATA"/>
     </comp>
-    <comp lib="0" loc="(790,90)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="UP"/>
+    <comp lib="0" loc="(170,780)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="CONFIRM"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(520,610)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="30"/>
-      <a name="label" val="BL_DATA"/>
-    </comp>
-    <comp lib="1" loc="(820,130)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="0" loc="(310,560)" name="Tunnel">
+      <a name="label" val="CONFIRM"/>
     </comp>
     <comp lib="0" loc="(430,260)" name="Tunnel">
       <a name="width" val="30"/>
       <a name="label" val="BR_DATA"/>
     </comp>
-    <comp lib="0" loc="(670,100)" name="Tunnel">
-      <a name="width" val="4"/>
-      <a name="label" val="CUR_X"/>
+    <comp lib="0" loc="(310,540)" name="Tunnel">
+      <a name="label" val="RIGHT"/>
     </comp>
-    <comp lib="0" loc="(430,200)" name="Tunnel">
-      <a name="width" val="30"/>
-      <a name="label" val="TL_DATA"/>
-    </comp>
-    <comp lib="0" loc="(160,630)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="0" loc="(160,660)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="width" val="4"/>
       <a name="label" val="CUR_Y"/>
-      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(520,530)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="30"/>
+      <a name="label" val="TR_DATA"/>
+    </comp>
+    <comp lib="0" loc="(430,160)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="BR_SEL"/>
+    </comp>
+    <comp lib="0" loc="(60,40)" name="Tunnel">
+      <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(530,690)" name="Pin">
       <a name="facing" val="west"/>
@@ -222,108 +213,144 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="BR_DATA"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(640,130)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(260,140)" name="Constant">
-      <a name="width" val="3"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="8" loc="(90,80)" name="main"/>
-    <comp lib="0" loc="(80,120)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="CUR_Y"/>
-    </comp>
-    <comp lib="0" loc="(310,520)" name="Tunnel">
-      <a name="label" val="LEFT"/>
-    </comp>
-    <comp lib="0" loc="(650,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="RIGHT"/>
-    </comp>
-    <comp lib="0" loc="(80,100)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="CUR_X"/>
-    </comp>
     <comp lib="0" loc="(50,40)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(80,140)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="4" loc="(840,100)" name="Counter">
+      <a name="width" val="4"/>
+      <a name="max" val="0xb"/>
     </comp>
     <comp lib="0" loc="(430,100)" name="Tunnel">
       <a name="width" val="5"/>
       <a name="label" val="TL_SEL"/>
     </comp>
-    <comp lib="0" loc="(260,260)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
+    <comp lib="0" loc="(650,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="RIGHT"/>
     </comp>
-    <comp lib="0" loc="(160,610)" name="Pin">
+    <comp lib="8" loc="(90,80)" name="main"/>
+    <comp lib="0" loc="(80,100)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="CUR_X"/>
+    </comp>
+    <comp lib="0" loc="(850,100)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="CUR_Y"/>
+    </comp>
+    <comp lib="0" loc="(80,120)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="CUR_Y"/>
+    </comp>
+    <comp lib="0" loc="(310,500)" name="Tunnel">
+      <a name="label" val="DOWN"/>
+    </comp>
+    <comp lib="0" loc="(430,240)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="BL_DATA"/>
+    </comp>
+    <comp lib="0" loc="(610,90)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="LEFT"/>
+    </comp>
+    <comp lib="0" loc="(170,660)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="CUR_Y"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(170,690)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="label" val="TL_SEL"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(520,690)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="30"/>
+      <a name="label" val="BR_DATA"/>
+    </comp>
+    <comp lib="0" loc="(670,100)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="CUR_X"/>
+    </comp>
+    <comp lib="0" loc="(130,410)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="KEYBOARD_RST"/>
+    </comp>
+    <comp lib="0" loc="(250,390)" name="Pin">
+      <a name="width" val="7"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="KEYBOARD_OUT"/>
+    </comp>
+    <comp lib="0" loc="(160,730)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="BL_SEL"/>
+    </comp>
+    <comp lib="7" loc="(270,80)" name="main"/>
+    <comp lib="0" loc="(310,520)" name="Tunnel">
+      <a name="label" val="LEFT"/>
+    </comp>
+    <comp lib="0" loc="(790,90)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="UP"/>
+    </comp>
+    <comp lib="0" loc="(260,140)" name="Constant">
+      <a name="width" val="3"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(430,140)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="BL_SEL"/>
+    </comp>
+    <comp lib="0" loc="(520,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="30"/>
+      <a name="label" val="BL_DATA"/>
+    </comp>
+    <comp lib="4" loc="(660,100)" name="Counter">
+      <a name="width" val="4"/>
+      <a name="max" val="0xb"/>
+    </comp>
+    <comp lib="0" loc="(160,750)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="BR_SEL"/>
+    </comp>
+    <comp lib="0" loc="(160,780)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CONFIRM"/>
+    </comp>
+    <comp lib="0" loc="(430,120)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="TR_SEL"/>
+    </comp>
+    <comp lib="0" loc="(170,640)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
       <a name="label" val="CUR_X"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(430,160)" name="Tunnel">
-      <a name="width" val="5"/>
-      <a name="label" val="BR_SEL"/>
-    </comp>
-    <comp lib="0" loc="(150,610)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="CUR_X"/>
-    </comp>
-    <comp lib="10" loc="(110,430)" name="main"/>
-    <comp lib="0" loc="(160,720)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="5"/>
-      <a name="label" val="BR_SEL"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(60,40)" name="Tunnel">
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(160,700)" name="Pin">
+    <comp lib="0" loc="(170,730)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="5"/>
       <a name="label" val="BL_SEL"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(530,530)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="30"/>
-      <a name="label" val="TR_DATA"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(830,170)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="DOWN"/>
-    </comp>
-    <comp lib="0" loc="(160,660)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="5"/>
-      <a name="label" val="TL_SEL"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(520,450)" name="Tunnel">
+    <comp lib="0" loc="(160,710)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="width" val="30"/>
-      <a name="label" val="TL_DATA"/>
-    </comp>
-    <comp lib="0" loc="(160,680)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
       <a name="width" val="5"/>
       <a name="label" val="TR_SEL"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(430,220)" name="Tunnel">
       <a name="width" val="30"/>
@@ -332,15 +359,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(70,625)" name="Text">
       <a name="halign" val="left"/>
     </comp>
-    <comp lib="0" loc="(150,680)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="TR_SEL"/>
+    <comp lib="1" loc="(820,130)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(430,140)" name="Tunnel">
-      <a name="width" val="5"/>
-      <a name="label" val="BL_SEL"/>
-    </comp>
+    <comp lib="0" loc="(260,240)" name="Constant"/>
     <comp lib="0" loc="(530,450)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -348,48 +372,52 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="TL_DATA"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(130,410)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="KEYBOARD_RST"/>
+    <comp lib="0" loc="(830,170)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="DOWN"/>
     </comp>
-    <comp lib="0" loc="(150,700)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="BL_SEL"/>
-    </comp>
-    <comp lib="0" loc="(250,390)" name="Pin">
-      <a name="width" val="7"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="KEYBOARD_OUT"/>
-    </comp>
-    <comp lib="0" loc="(850,100)" name="Tunnel">
-      <a name="width" val="4"/>
-      <a name="label" val="CUR_Y"/>
-    </comp>
-    <comp lib="0" loc="(150,720)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="5"/>
-      <a name="label" val="BR_SEL"/>
-    </comp>
-    <comp lib="0" loc="(260,240)" name="Constant"/>
-    <comp lib="0" loc="(520,530)" name="Tunnel">
-      <a name="facing" val="east"/>
+    <comp lib="0" loc="(530,530)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
       <a name="width" val="30"/>
       <a name="label" val="TR_DATA"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(310,540)" name="Tunnel">
-      <a name="label" val="RIGHT"/>
+    <comp lib="0" loc="(260,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
     </comp>
-    <comp lib="0" loc="(310,500)" name="Tunnel">
-      <a name="label" val="DOWN"/>
+    <comp lib="0" loc="(170,750)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="label" val="BR_SEL"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(430,200)" name="Tunnel">
+      <a name="width" val="30"/>
+      <a name="label" val="TL_DATA"/>
     </comp>
     <comp lib="0" loc="(310,480)" name="Tunnel">
       <a name="label" val="UP"/>
     </comp>
-    <comp lib="0" loc="(150,630)" name="Tunnel">
+    <comp lib="0" loc="(160,690)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="TL_SEL"/>
+    </comp>
+    <comp lib="0" loc="(170,710)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="label" val="TR_SEL"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="10" loc="(110,430)" name="main"/>
+    <comp lib="0" loc="(160,640)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="4"/>
-      <a name="label" val="CUR_Y"/>
+      <a name="label" val="CUR_X"/>
     </comp>
     <comp lib="0" loc="(530,610)" name="Pin">
       <a name="facing" val="west"/>
@@ -398,21 +426,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="BL_DATA"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="4" loc="(840,100)" name="Counter">
-      <a name="width" val="4"/>
-      <a name="max" val="0xb"/>
-    </comp>
-    <comp lib="0" loc="(80,140)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="7" loc="(270,80)" name="main"/>
-    <comp lib="0" loc="(610,90)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="LEFT"/>
-    </comp>
-    <comp lib="4" loc="(660,100)" name="Counter">
-      <a name="width" val="4"/>
-      <a name="max" val="0xb"/>
+    <comp lib="1" loc="(640,130)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
   </circuit>
 </project>

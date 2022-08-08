@@ -1,3 +1,6 @@
+# todo 
+[x] xdxd
+
 ## rozlozenie statkow
 ### n statkow i co wybor pozycji (kursorem) statku przechodzimy do kolejnego; na koniec gra sie zaczyna jak gracze juz maja wybrane (jakis and np)
 

@@ -1,5 +1,5 @@
 # todo 
-- [ ] wyswietlanie aktualnego czasu & zapisywanie high score
+- [x] wyswietlanie aktualnego czasu & zapisywanie high score
 - [ ] do ukladu z pamiecia zrobic wyjscie ze trafilo (bo wtedy ten typ co trafil dalej ma kolejke)
 - [ ] oznaczenie braku trafienia
 - [x] szczała wyboru 

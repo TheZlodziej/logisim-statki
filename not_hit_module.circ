@@ -115,10 +115,10 @@
     <wire from="(560,700)" to="(600,700)"/>
     <wire from="(560,720)" to="(600,720)"/>
     <wire from="(560,740)" to="(600,740)"/>
+    <wire from="(130,420)" to="(130,510)"/>
     <wire from="(270,150)" to="(310,150)"/>
     <wire from="(270,170)" to="(310,170)"/>
     <wire from="(110,400)" to="(140,400)"/>
-    <wire from="(110,420)" to="(140,420)"/>
     <wire from="(680,290)" to="(700,290)"/>
     <wire from="(680,210)" to="(700,210)"/>
     <wire from="(680,190)" to="(700,190)"/>
@@ -128,15 +128,18 @@
     <wire from="(680,310)" to="(700,310)"/>
     <wire from="(680,270)" to="(700,270)"/>
     <wire from="(450,230)" to="(470,230)"/>
+    <wire from="(110,420)" to="(130,420)"/>
     <wire from="(520,190)" to="(530,190)"/>
     <wire from="(300,190)" to="(310,190)"/>
+    <wire from="(130,210)" to="(140,210)"/>
     <wire from="(130,170)" to="(140,170)"/>
     <wire from="(130,190)" to="(140,190)"/>
     <wire from="(130,150)" to="(140,150)"/>
     <wire from="(130,230)" to="(140,230)"/>
-    <wire from="(130,210)" to="(140,210)"/>
     <wire from="(130,380)" to="(140,380)"/>
     <wire from="(130,360)" to="(140,360)"/>
+    <wire from="(130,420)" to="(140,420)"/>
+    <wire from="(150,500)" to="(160,500)"/>
     <wire from="(450,150)" to="(530,150)"/>
     <wire from="(470,170)" to="(470,230)"/>
     <wire from="(560,390)" to="(570,390)"/>
@@ -164,6 +167,10 @@
       <a name="label" val="BL_SEL"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="0" loc="(130,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK/5"/>
+    </comp>
     <comp lib="0" loc="(140,380)" name="Tunnel">
       <a name="width" val="4"/>
       <a name="label" val="~HIT_Y"/>
@@ -181,6 +188,9 @@
       <a name="width" val="30"/>
       <a name="label" val="BL_DATA"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(160,500)" name="Tunnel">
+      <a name="label" val="CLK/5"/>
     </comp>
     <comp lib="0" loc="(130,150)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -244,6 +254,10 @@
       <a name="width" val="3"/>
       <a name="value" val="0x3"/>
     </comp>
+    <comp lib="4" loc="(150,490)" name="Counter">
+      <a name="width" val="3"/>
+      <a name="max" val="0x5"/>
+    </comp>
     <comp lib="0" loc="(300,190)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
@@ -268,7 +282,6 @@
       <a name="width" val="5"/>
       <a name="label" val="BR_SEL"/>
     </comp>
-    <comp lib="7" loc="(140,140)" name="main"/>
     <comp lib="0" loc="(130,190)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="~HIT"/>
@@ -282,10 +295,6 @@
     </comp>
     <comp lib="0" loc="(140,400)" name="Tunnel">
       <a name="label" val="~HIT"/>
-    </comp>
-    <comp lib="0" loc="(130,230)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(700,190)" name="Tunnel">
       <a name="width" val="5"/>
@@ -317,6 +326,7 @@
       <a name="label" val="BR_DATA"/>
     </comp>
     <comp lib="9" loc="(310,130)" name="main"/>
+    <comp lib="7" loc="(140,140)" name="main"/>
     <comp lib="0" loc="(110,420)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="CLK"/>

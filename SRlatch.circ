@@ -19,7 +19,13 @@
   <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2"/>
   <lib desc="#Arithmetic" name="3"/>
-  <lib desc="#Memory" name="4"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
   <lib desc="#I/O" name="5"/>
   <lib desc="#Base" name="6">
     <tool name="Text Tool">
@@ -72,45 +78,63 @@
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="44">S</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="59" y="74">R</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="79" y="44">Q</text>
-      <circ-port height="8" pin="230,80" width="8" x="46" y="66"/>
-      <circ-port height="8" pin="230,170" width="8" x="46" y="36"/>
+      <circ-port height="8" pin="200,70" width="8" x="46" y="66"/>
+      <circ-port height="8" pin="200,160" width="8" x="46" y="36"/>
       <circ-port height="10" pin="440,90" width="10" x="85" y="35"/>
       <circ-anchor facing="east" height="6" width="6" x="87" y="27"/>
     </appear>
+    <wire from="(250,160)" to="(250,170)"/>
+    <wire from="(200,160)" to="(250,160)"/>
+    <wire from="(100,100)" to="(100,120)"/>
+    <wire from="(260,130)" to="(260,150)"/>
+    <wire from="(260,100)" to="(260,120)"/>
+    <wire from="(340,90)" to="(440,90)"/>
+    <wire from="(120,90)" to="(160,90)"/>
+    <wire from="(310,160)" to="(350,160)"/>
+    <wire from="(240,80)" to="(270,80)"/>
     <wire from="(260,120)" to="(350,120)"/>
     <wire from="(310,90)" to="(340,90)"/>
     <wire from="(350,120)" to="(350,160)"/>
     <wire from="(340,90)" to="(340,130)"/>
+    <wire from="(190,90)" to="(210,90)"/>
+    <wire from="(250,170)" to="(270,170)"/>
     <wire from="(260,150)" to="(270,150)"/>
     <wire from="(260,130)" to="(340,130)"/>
     <wire from="(260,100)" to="(270,100)"/>
-    <wire from="(260,130)" to="(260,150)"/>
-    <wire from="(260,100)" to="(260,120)"/>
-    <wire from="(340,90)" to="(440,90)"/>
-    <wire from="(230,170)" to="(270,170)"/>
-    <wire from="(230,80)" to="(270,80)"/>
-    <wire from="(310,160)" to="(350,160)"/>
-    <comp lib="1" loc="(310,160)" name="NOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(310,90)" name="NOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
+    <wire from="(200,70)" to="(210,70)"/>
+    <wire from="(90,120)" to="(100,120)"/>
     <comp lib="0" loc="(440,90)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="Q"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(230,170)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="SET"/>
-    </comp>
-    <comp lib="0" loc="(230,80)" name="Pin">
+    <comp lib="0" loc="(200,70)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="RESTET"/>
     </comp>
+    <comp lib="1" loc="(190,90)" name="NOT Gate"/>
+    <comp lib="4" loc="(120,80)" name="Counter">
+      <a name="width" val="1"/>
+      <a name="max" val="0x1"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="1" loc="(310,90)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(310,160)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(240,80)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(200,160)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="SET"/>
+    </comp>
+    <comp lib="0" loc="(90,120)" name="Clock"/>
   </circuit>
 </project>

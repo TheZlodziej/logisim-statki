@@ -91,11 +91,12 @@
       <text font-family="SansSerif" font-size="8" text-anchor="middle" x="163" y="23">Xout</text>
       <text font-family="SansSerif" font-size="8" text-anchor="middle" x="164" y="43">Yout</text>
       <polyline fill="none" points="80,10 80,110" stroke="#000000" stroke-width="2"/>
-      <polyline fill="none" points="150,10 150,110" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="140,10 140,110" stroke="#000000" stroke-width="2"/>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="115" y="49">not hit</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="115" y="63">ram</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="116" y="76">storage</text>
       <text font-family="SansSerif" font-size="8" text-anchor="middle" x="162" y="93">BUSY</text>
+      <text font-family="SansSerif" font-size="8" text-anchor="middle" x="158" y="73">ADDED</text>
       <circ-port height="8" pin="190,440" width="8" x="46" y="56"/>
       <circ-port height="8" pin="110,580" width="8" x="46" y="76"/>
       <circ-port height="8" pin="110,600" width="8" x="46" y="16"/>
@@ -111,6 +112,7 @@
       <circ-port height="10" pin="530,770" width="10" x="125" y="105"/>
       <circ-port height="10" pin="530,830" width="10" x="85" y="105"/>
       <circ-port height="10" pin="120,140" width="10" x="175" y="85"/>
+      <circ-port height="10" pin="120,180" width="10" x="175" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="47" y="7"/>
     </appear>
     <wire from="(620,540)" to="(620,550)"/>
@@ -147,6 +149,7 @@
     <wire from="(270,750)" to="(290,750)"/>
     <wire from="(1850,420)" to="(1860,420)"/>
     <wire from="(340,470)" to="(340,510)"/>
+    <wire from="(100,180)" to="(120,180)"/>
     <wire from="(870,300)" to="(900,300)"/>
     <wire from="(1060,330)" to="(1090,330)"/>
     <wire from="(350,440)" to="(360,440)"/>
@@ -569,6 +572,11 @@
     <comp lib="1" loc="(1540,400)" name="Controlled Buffer">
       <a name="control" val="left"/>
     </comp>
+    <comp lib="0" loc="(120,180)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="0" loc="(890,530)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="8"/>
@@ -604,6 +612,10 @@
     <comp lib="0" loc="(720,170)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="not hit &gt; 1?"/>
+    </comp>
+    <comp lib="0" loc="(100,180)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SAVE N DATA"/>
     </comp>
     <comp lib="7" loc="(330,480)" name="main"/>
     <comp lib="4" loc="(260,500)" name="Counter">

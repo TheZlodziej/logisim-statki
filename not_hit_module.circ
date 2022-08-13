@@ -217,7 +217,6 @@
       <a name="tristate" val="false"/>
       <a name="label" val="CLK"/>
     </comp>
-    <comp lib="7" loc="(140,140)" name="main"/>
     <comp lib="0" loc="(700,290)" name="Tunnel">
       <a name="width" val="30"/>
       <a name="label" val="BL_DATA"/>
@@ -360,5 +359,6 @@
       <a name="tristate" val="false"/>
       <a name="label" val="~HIT"/>
     </comp>
+    <comp lib="7" loc="(140,140)" name="main"/>
   </circuit>
 </project>

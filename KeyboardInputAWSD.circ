@@ -60,7 +60,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <rect fill="none" height="150" stroke="#000000" stroke-width="2" width="190" x="70" y="60"/>
+      <rect fill="none" height="160" stroke="#000000" stroke-width="2" width="190" x="70" y="60"/>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="218" y="114">UP pressed</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="207" y="135">DOWN pressed</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="212" y="154">LEFT pressed</text>
@@ -68,93 +68,91 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="221" y="76">Keyboard out</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="110" y="76">Keyboard rst</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="201" y="194">CONFIRM pressed</text>
-      <circ-port height="10" pin="640,50" width="10" x="255" y="105"/>
-      <circ-port height="10" pin="640,100" width="10" x="255" y="125"/>
-      <circ-port height="10" pin="640,150" width="10" x="255" y="145"/>
-      <circ-port height="8" pin="360,280" width="8" x="216" y="56"/>
-      <circ-port height="8" pin="370,320" width="8" x="96" y="56"/>
-      <circ-port height="10" pin="640,200" width="10" x="255" y="165"/>
-      <circ-port height="10" pin="640,250" width="10" x="255" y="185"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="205" y="213">ROTATE pressed</text>
+      <circ-port height="10" pin="650,50" width="10" x="255" y="105"/>
+      <circ-port height="10" pin="650,100" width="10" x="255" y="125"/>
+      <circ-port height="10" pin="650,150" width="10" x="255" y="145"/>
+      <circ-port height="8" pin="360,370" width="8" x="216" y="56"/>
+      <circ-port height="8" pin="370,420" width="8" x="96" y="56"/>
+      <circ-port height="10" pin="650,200" width="10" x="255" y="165"/>
+      <circ-port height="10" pin="650,250" width="10" x="255" y="185"/>
+      <circ-port height="10" pin="650,300" width="10" x="255" y="205"/>
       <circ-anchor facing="east" height="6" width="6" x="67" y="57"/>
     </appear>
-    <wire from="(370,320)" to="(430,320)"/>
-    <wire from="(540,40)" to="(540,50)"/>
-    <wire from="(540,140)" to="(540,150)"/>
-    <wire from="(540,240)" to="(540,250)"/>
-    <wire from="(520,200)" to="(520,330)"/>
+    <wire from="(550,30)" to="(550,40)"/>
+    <wire from="(550,90)" to="(550,100)"/>
+    <wire from="(550,190)" to="(550,200)"/>
+    <wire from="(550,290)" to="(550,300)"/>
+    <wire from="(510,150)" to="(510,410)"/>
+    <wire from="(470,440)" to="(530,440)"/>
     <wire from="(390,210)" to="(440,210)"/>
-    <wire from="(490,50)" to="(540,50)"/>
-    <wire from="(480,340)" to="(530,340)"/>
+    <wire from="(390,310)" to="(440,310)"/>
+    <wire from="(500,100)" to="(550,100)"/>
+    <wire from="(470,430)" to="(520,430)"/>
     <wire from="(390,110)" to="(440,110)"/>
-    <wire from="(540,200)" to="(640,200)"/>
-    <wire from="(540,100)" to="(640,100)"/>
+    <wire from="(550,150)" to="(650,150)"/>
+    <wire from="(550,50)" to="(650,50)"/>
+    <wire from="(550,250)" to="(650,250)"/>
     <wire from="(210,140)" to="(440,140)"/>
     <wire from="(210,40)" to="(440,40)"/>
     <wire from="(210,240)" to="(440,240)"/>
-    <wire from="(480,330)" to="(520,330)"/>
-    <wire from="(510,150)" to="(540,150)"/>
-    <wire from="(480,320)" to="(510,320)"/>
-    <wire from="(360,280)" to="(390,280)"/>
-    <wire from="(480,310)" to="(500,310)"/>
-    <wire from="(510,150)" to="(510,320)"/>
-    <wire from="(480,300)" to="(490,300)"/>
+    <wire from="(540,300)" to="(540,450)"/>
+    <wire from="(520,200)" to="(550,200)"/>
+    <wire from="(500,100)" to="(500,400)"/>
     <wire from="(390,210)" to="(390,260)"/>
+    <wire from="(530,250)" to="(530,440)"/>
     <wire from="(390,110)" to="(390,160)"/>
-    <wire from="(530,250)" to="(540,250)"/>
-    <wire from="(540,30)" to="(540,40)"/>
-    <wire from="(540,90)" to="(540,100)"/>
-    <wire from="(540,190)" to="(540,200)"/>
+    <wire from="(390,310)" to="(390,370)"/>
+    <wire from="(540,300)" to="(550,300)"/>
+    <wire from="(550,40)" to="(550,50)"/>
+    <wire from="(550,140)" to="(550,150)"/>
+    <wire from="(550,240)" to="(550,250)"/>
+    <wire from="(490,50)" to="(550,50)"/>
+    <wire from="(480,300)" to="(540,300)"/>
     <wire from="(390,160)" to="(440,160)"/>
     <wire from="(390,260)" to="(440,260)"/>
     <wire from="(480,250)" to="(530,250)"/>
     <wire from="(390,60)" to="(440,60)"/>
-    <wire from="(390,260)" to="(390,280)"/>
-    <wire from="(530,250)" to="(530,340)"/>
-    <wire from="(540,250)" to="(640,250)"/>
-    <wire from="(540,50)" to="(640,50)"/>
-    <wire from="(540,150)" to="(640,150)"/>
-    <wire from="(500,100)" to="(500,310)"/>
+    <wire from="(370,420)" to="(420,420)"/>
+    <wire from="(490,50)" to="(490,390)"/>
+    <wire from="(550,300)" to="(650,300)"/>
+    <wire from="(550,200)" to="(650,200)"/>
+    <wire from="(550,100)" to="(650,100)"/>
     <wire from="(210,190)" to="(440,190)"/>
     <wire from="(210,90)" to="(440,90)"/>
+    <wire from="(210,290)" to="(440,290)"/>
     <wire from="(480,200)" to="(520,200)"/>
-    <wire from="(500,100)" to="(540,100)"/>
+    <wire from="(510,150)" to="(550,150)"/>
+    <wire from="(470,410)" to="(510,410)"/>
+    <wire from="(520,200)" to="(520,430)"/>
+    <wire from="(530,250)" to="(550,250)"/>
     <wire from="(480,150)" to="(510,150)"/>
+    <wire from="(470,400)" to="(500,400)"/>
+    <wire from="(360,370)" to="(390,370)"/>
     <wire from="(480,100)" to="(500,100)"/>
-    <wire from="(520,200)" to="(540,200)"/>
+    <wire from="(470,390)" to="(490,390)"/>
     <wire from="(480,50)" to="(490,50)"/>
+    <wire from="(390,260)" to="(390,310)"/>
     <wire from="(390,60)" to="(390,110)"/>
     <wire from="(390,160)" to="(390,210)"/>
-    <wire from="(490,50)" to="(490,300)"/>
-    <comp lib="3" loc="(480,50)" name="Comparator">
+    <wire from="(470,450)" to="(540,450)"/>
+    <comp lib="3" loc="(480,250)" name="Comparator">
       <a name="width" val="7"/>
       <a name="mode" val="unsigned"/>
     </comp>
-    <comp lib="0" loc="(210,190)" name="Constant">
+    <comp lib="3" loc="(480,300)" name="Comparator">
       <a name="width" val="7"/>
-      <a name="value" val="0x64"/>
+      <a name="mode" val="unsigned"/>
     </comp>
-    <comp lib="5" loc="(540,240)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-      <a name="persist" val="2048"/>
+    <comp lib="6" loc="(604,90)" name="Text">
+      <a name="text" val="Down pressed"/>
     </comp>
-    <comp lib="6" loc="(589,141)" name="Text">
-      <a name="text" val="Left pressed"/>
+    <comp lib="0" loc="(650,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="6" loc="(584,40)" name="Text">
-      <a name="text" val="Up pressed"/>
-    </comp>
-    <comp lib="6" loc="(163,93)" name="Text">
-      <a name="text" val="Down (S)"/>
-    </comp>
-    <comp lib="0" loc="(370,320)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Keyboard rst"/>
-    </comp>
-    <comp lib="6" loc="(167,143)" name="Text">
-      <a name="text" val="Left (A)"/>
-    </comp>
-    <comp lib="5" loc="(540,90)" name="DotMatrix">
+    <comp lib="5" loc="(550,140)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
       <a name="persist" val="2048"/>
@@ -163,67 +161,81 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="7"/>
       <a name="mode" val="unsigned"/>
     </comp>
-    <comp lib="3" loc="(480,250)" name="Comparator">
-      <a name="width" val="7"/>
-      <a name="mode" val="unsigned"/>
-    </comp>
-    <comp lib="6" loc="(168,43)" name="Text">
-      <a name="text" val="Up (W)"/>
-    </comp>
-    <comp lib="6" loc="(596,239)" name="Text">
-      <a name="text" val="Confirm pressed"/>
-    </comp>
-    <comp lib="0" loc="(640,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="0" loc="(210,140)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0x61"/>
-    </comp>
-    <comp lib="6" loc="(161,193)" name="Text">
-      <a name="text" val="Right (D)"/>
-    </comp>
-    <comp lib="6" loc="(593,190)" name="Text">
-      <a name="text" val="Right pressed"/>
-    </comp>
-    <comp lib="0" loc="(210,90)" name="Constant">
-      <a name="width" val="7"/>
-      <a name="value" val="0x73"/>
-    </comp>
-    <comp lib="0" loc="(360,280)" name="Pin">
-      <a name="width" val="7"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Keyboard out"/>
-    </comp>
-    <comp lib="6" loc="(594,90)" name="Text">
-      <a name="text" val="Down pressed"/>
-    </comp>
-    <comp lib="5" loc="(540,140)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-      <a name="persist" val="2048"/>
-    </comp>
-    <comp lib="0" loc="(640,50)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(210,240)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0xa"/>
     </comp>
-    <comp lib="3" loc="(480,200)" name="Comparator">
-      <a name="width" val="7"/>
-      <a name="mode" val="unsigned"/>
-    </comp>
-    <comp lib="0" loc="(640,250)" name="Pin">
+    <comp lib="0" loc="(650,50)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(640,200)" name="Pin">
+    <comp lib="6" loc="(326,31)" name="Text">
+      <a name="text" val="Tak, to dziala."/>
+    </comp>
+    <comp lib="5" loc="(550,290)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+      <a name="persist" val="2048"/>
+    </comp>
+    <comp lib="6" loc="(603,190)" name="Text">
+      <a name="text" val="Right pressed"/>
+    </comp>
+    <comp lib="6" loc="(163,93)" name="Text">
+      <a name="text" val="Down (S)"/>
+    </comp>
+    <comp lib="6" loc="(599,141)" name="Text">
+      <a name="text" val="Left pressed"/>
+    </comp>
+    <comp lib="6" loc="(594,40)" name="Text">
+      <a name="text" val="Up pressed"/>
+    </comp>
+    <comp lib="5" loc="(550,190)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+      <a name="persist" val="2048"/>
+    </comp>
+    <comp lib="0" loc="(650,100)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="5" loc="(550,240)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+      <a name="persist" val="2048"/>
+    </comp>
+    <comp lib="6" loc="(149,244)" name="Text">
+      <a name="text" val="Confirm (enter)"/>
+    </comp>
+    <comp lib="6" loc="(163,294)" name="Text">
+      <a name="text" val="Rotate (r)"/>
+    </comp>
+    <comp lib="0" loc="(650,300)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(161,193)" name="Text">
+      <a name="text" val="Right (D)"/>
+    </comp>
+    <comp lib="0" loc="(210,90)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0x73"/>
+    </comp>
+    <comp lib="1" loc="(420,420)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="6"/>
+    </comp>
+    <comp lib="0" loc="(370,420)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Keyboard rst"/>
+    </comp>
+    <comp lib="0" loc="(650,150)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
@@ -232,33 +244,57 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="7"/>
       <a name="mode" val="unsigned"/>
     </comp>
-    <comp lib="1" loc="(430,320)" name="OR Gate">
-      <a name="facing" val="west"/>
+    <comp lib="6" loc="(606,239)" name="Text">
+      <a name="text" val="Confirm pressed"/>
     </comp>
-    <comp lib="5" loc="(540,40)" name="DotMatrix">
+    <comp lib="3" loc="(480,200)" name="Comparator">
+      <a name="width" val="7"/>
+      <a name="mode" val="unsigned"/>
+    </comp>
+    <comp lib="5" loc="(550,90)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
       <a name="persist" val="2048"/>
     </comp>
-    <comp lib="6" loc="(326,31)" name="Text">
-      <a name="text" val="Tak, to dziala."/>
+    <comp lib="6" loc="(167,143)" name="Text">
+      <a name="text" val="Left (A)"/>
+    </comp>
+    <comp lib="5" loc="(550,40)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+      <a name="persist" val="2048"/>
+    </comp>
+    <comp lib="6" loc="(168,43)" name="Text">
+      <a name="text" val="Up (W)"/>
+    </comp>
+    <comp lib="6" loc="(606,292)" name="Text">
+      <a name="text" val="Rotate pressed"/>
+    </comp>
+    <comp lib="3" loc="(480,50)" name="Comparator">
+      <a name="width" val="7"/>
+      <a name="mode" val="unsigned"/>
+    </comp>
+    <comp lib="0" loc="(210,190)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0x64"/>
+    </comp>
+    <comp lib="0" loc="(210,290)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0x72"/>
     </comp>
     <comp lib="0" loc="(210,40)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0x77"/>
     </comp>
-    <comp lib="5" loc="(540,190)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-      <a name="persist" val="2048"/>
-    </comp>
-    <comp lib="0" loc="(640,100)" name="Pin">
+    <comp lib="0" loc="(650,200)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="6" loc="(149,244)" name="Text">
-      <a name="text" val="Confirm (enter)"/>
+    <comp lib="0" loc="(360,370)" name="Pin">
+      <a name="width" val="7"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Keyboard out"/>
     </comp>
   </circuit>
 </project>

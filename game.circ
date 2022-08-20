@@ -83,92 +83,126 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <comp lib="5" loc="(310,300)" name="DotMatrix">
+    <comp lib="5" loc="(910,600)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(610,600)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(310,600)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(10,1000)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(220,650)" name="Keyboard"/>
-    <comp lib="5" loc="(10,600)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(910,1000)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(570,690)" name="DotMatrix">
-      <a name="matrixcols" val="8"/>
-      <a name="matrixrows" val="5"/>
-    </comp>
-    <comp lib="5" loc="(910,300)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(610,1300)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(910,1300)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(610,300)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(10,300)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
     <comp lib="5" loc="(610,1000)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(310,300)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(570,690)" name="DotMatrix">
+      <a name="matrixcols" val="8"/>
+      <a name="matrixrows" val="5"/>
+      <a name="color" val="#b2ff3c"/>
+      <a name="offcolor" val="#000000"/>
     </comp>
     <comp lib="5" loc="(310,1300)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(220,650)" name="Keyboard"/>
+    <comp lib="5" loc="(610,1300)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
     <comp lib="7" loc="(10,0)" name="main"/>
-    <comp lib="5" loc="(870,650)" name="Keyboard"/>
+    <comp lib="5" loc="(10,1000)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(910,1000)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(610,300)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(910,300)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(10,600)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(610,600)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(310,600)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
     <comp lib="5" loc="(310,1000)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(910,600)" name="DotMatrix">
+    <comp lib="5" loc="(910,1300)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(10,300)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
     <comp lib="5" loc="(10,1300)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
+    <comp lib="5" loc="(870,650)" name="Keyboard"/>
   </circuit>
 </project>

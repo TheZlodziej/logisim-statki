@@ -144,128 +144,57 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="7"/>
       <a name="mode" val="unsigned"/>
     </comp>
-    <comp lib="6" loc="(604,90)" name="Text">
-      <a name="text" val="Down pressed"/>
-    </comp>
-    <comp lib="0" loc="(650,250)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="5" loc="(550,140)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-      <a name="persist" val="2048"/>
-    </comp>
-    <comp lib="3" loc="(480,150)" name="Comparator">
-      <a name="width" val="7"/>
-      <a name="mode" val="unsigned"/>
-    </comp>
-    <comp lib="0" loc="(210,140)" name="Constant">
-      <a name="width" val="7"/>
-      <a name="value" val="0x61"/>
-    </comp>
     <comp lib="0" loc="(210,240)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0xa"/>
-    </comp>
-    <comp lib="0" loc="(650,50)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(326,31)" name="Text">
-      <a name="text" val="Tak, to dziala."/>
-    </comp>
-    <comp lib="5" loc="(550,290)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-      <a name="persist" val="2048"/>
-    </comp>
-    <comp lib="6" loc="(603,190)" name="Text">
-      <a name="text" val="Right pressed"/>
-    </comp>
-    <comp lib="6" loc="(163,93)" name="Text">
-      <a name="text" val="Down (S)"/>
-    </comp>
-    <comp lib="6" loc="(599,141)" name="Text">
-      <a name="text" val="Left pressed"/>
-    </comp>
-    <comp lib="6" loc="(594,40)" name="Text">
-      <a name="text" val="Up pressed"/>
-    </comp>
-    <comp lib="5" loc="(550,190)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-      <a name="persist" val="2048"/>
-    </comp>
-    <comp lib="0" loc="(650,100)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="5" loc="(550,240)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-      <a name="persist" val="2048"/>
-    </comp>
-    <comp lib="6" loc="(149,244)" name="Text">
-      <a name="text" val="Confirm (enter)"/>
-    </comp>
-    <comp lib="6" loc="(163,294)" name="Text">
-      <a name="text" val="Rotate (r)"/>
-    </comp>
-    <comp lib="0" loc="(650,300)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(161,193)" name="Text">
-      <a name="text" val="Right (D)"/>
     </comp>
     <comp lib="0" loc="(210,90)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0x73"/>
     </comp>
-    <comp lib="1" loc="(420,420)" name="OR Gate">
-      <a name="facing" val="west"/>
-      <a name="inputs" val="6"/>
-    </comp>
-    <comp lib="0" loc="(370,420)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Keyboard rst"/>
-    </comp>
-    <comp lib="0" loc="(650,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="3" loc="(480,100)" name="Comparator">
-      <a name="width" val="7"/>
-      <a name="mode" val="unsigned"/>
-    </comp>
     <comp lib="6" loc="(606,239)" name="Text">
       <a name="text" val="Confirm pressed"/>
-    </comp>
-    <comp lib="3" loc="(480,200)" name="Comparator">
-      <a name="width" val="7"/>
-      <a name="mode" val="unsigned"/>
-    </comp>
-    <comp lib="5" loc="(550,90)" name="DotMatrix">
-      <a name="matrixcols" val="1"/>
-      <a name="matrixrows" val="1"/>
-      <a name="persist" val="2048"/>
-    </comp>
-    <comp lib="6" loc="(167,143)" name="Text">
-      <a name="text" val="Left (A)"/>
     </comp>
     <comp lib="5" loc="(550,40)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
       <a name="persist" val="2048"/>
     </comp>
-    <comp lib="6" loc="(168,43)" name="Text">
-      <a name="text" val="Up (W)"/>
+    <comp lib="6" loc="(169,43)" name="Text">
+      <a name="text" val="Up (w)"/>
+    </comp>
+    <comp lib="0" loc="(650,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(210,140)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0x61"/>
+    </comp>
+    <comp lib="0" loc="(370,420)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Keyboard rst"/>
+    </comp>
+    <comp lib="6" loc="(149,244)" name="Text">
+      <a name="text" val="Confirm (enter)"/>
+    </comp>
+    <comp lib="0" loc="(650,300)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(163,294)" name="Text">
+      <a name="text" val="Rotate (r)"/>
+    </comp>
+    <comp lib="5" loc="(550,240)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+      <a name="persist" val="2048"/>
+    </comp>
+    <comp lib="3" loc="(480,200)" name="Comparator">
+      <a name="width" val="7"/>
+      <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="6" loc="(606,292)" name="Text">
       <a name="text" val="Rotate pressed"/>
@@ -278,23 +207,94 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="7"/>
       <a name="value" val="0x64"/>
     </comp>
+    <comp lib="5" loc="(550,190)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+      <a name="persist" val="2048"/>
+    </comp>
+    <comp lib="5" loc="(550,290)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+      <a name="persist" val="2048"/>
+    </comp>
     <comp lib="0" loc="(210,290)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0x72"/>
+    </comp>
+    <comp lib="0" loc="(650,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(163,93)" name="Text">
+      <a name="text" val="Down (s)"/>
     </comp>
     <comp lib="0" loc="(210,40)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0x77"/>
     </comp>
-    <comp lib="0" loc="(650,200)" name="Pin">
+    <comp lib="6" loc="(594,40)" name="Text">
+      <a name="text" val="Up pressed"/>
+    </comp>
+    <comp lib="6" loc="(599,141)" name="Text">
+      <a name="text" val="Left pressed"/>
+    </comp>
+    <comp lib="5" loc="(550,90)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+      <a name="persist" val="2048"/>
+    </comp>
+    <comp lib="1" loc="(420,420)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="6"/>
+    </comp>
+    <comp lib="6" loc="(604,90)" name="Text">
+      <a name="text" val="Down pressed"/>
+    </comp>
+    <comp lib="5" loc="(550,140)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+      <a name="persist" val="2048"/>
+    </comp>
+    <comp lib="0" loc="(650,100)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="3" loc="(480,150)" name="Comparator">
+      <a name="width" val="7"/>
+      <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="0" loc="(360,370)" name="Pin">
       <a name="width" val="7"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Keyboard out"/>
+    </comp>
+    <comp lib="0" loc="(650,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(650,50)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(603,190)" name="Text">
+      <a name="text" val="Right pressed"/>
+    </comp>
+    <comp lib="6" loc="(167,142)" name="Text">
+      <a name="text" val="Left (a)"/>
+    </comp>
+    <comp lib="3" loc="(480,100)" name="Comparator">
+      <a name="width" val="7"/>
+      <a name="mode" val="unsigned"/>
+    </comp>
+    <comp lib="6" loc="(161,193)" name="Text">
+      <a name="text" val="Right (d)"/>
+    </comp>
+    <comp lib="6" loc="(326,31)" name="Text">
+      <a name="text" val="Tak, to dziala."/>
     </comp>
   </circuit>
 </project>

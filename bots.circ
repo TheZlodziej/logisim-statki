@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project source="2.7.1" version="1.0">
-  This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
-
-  <lib desc="#Wiring" name="0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="facing" val="west"/>
     </tool>
@@ -220,174 +219,22 @@
     <wire from="(870,570)" to="(940,570)"/>
     <wire from="(880,590)" to="(890,590)"/>
     <wire from="(240,50)" to="(370,50)"/>
-    <comp lib="0" loc="(370,100)" name="Tunnel">
-      <a name="label" val="BOOT_PHASE"/>
-    </comp>
-    <comp lib="0" loc="(150,150)" name="Pin">
+    <comp lib="0" loc="(660,130)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="0" loc="(320,640)" name="Constant"/>
-    <comp lib="0" loc="(1630,110)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="ROTATION_CLOCK"/>
-    </comp>
-    <comp lib="0" loc="(180,890)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(1810,540)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Y"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="9" loc="(1790,460)" name="main"/>
-    <comp lib="0" loc="(170,1050)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="SHOOT"/>
-    </comp>
-    <comp lib="0" loc="(150,30)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="CURR_PLAYER"/>
-    </comp>
-    <comp lib="1" loc="(260,880)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(680,230)" name="Tunnel">
-      <a name="label" val="HIT?"/>
-    </comp>
-    <comp lib="0" loc="(320,880)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="1" loc="(500,500)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(1810,430)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-      <a name="label" val="X"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(510,520)" name="Tunnel">
-      <a name="label" val="CONFIRM_CLOCK"/>
-    </comp>
-    <comp lib="1" loc="(500,520)" name="Controlled Buffer"/>
-    <comp lib="3" loc="(350,400)" name="Comparator">
-      <a name="width" val="4"/>
-      <a name="mode" val="unsigned"/>
-    </comp>
-    <comp lib="0" loc="(660,230)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="HIT"/>
-    </comp>
-    <comp lib="0" loc="(800,640)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="SHOOT_PHASE"/>
-    </comp>
-    <comp lib="0" loc="(150,190)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(400,1000)" name="Tunnel">
-      <a name="label" val="POSITION_CLOCK"/>
-    </comp>
-    <comp lib="0" loc="(950,640)" name="Tunnel">
-      <a name="label" val="SHOOT"/>
-    </comp>
-    <comp lib="2" loc="(340,640)" name="Demultiplexer">
-      <a name="select" val="5"/>
-    </comp>
-    <comp lib="8" loc="(1790,350)" name="main"/>
-    <comp lib="0" loc="(150,110)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="10SHIPS?"/>
-    </comp>
-    <comp lib="2" loc="(340,1030)" name="Demultiplexer">
-      <a name="select" val="3"/>
-    </comp>
-    <comp lib="0" loc="(370,350)" name="Tunnel">
-      <a name="width" val="4"/>
-      <a name="label" val="SHIP_NUMBER"/>
-    </comp>
-    <comp lib="0" loc="(680,130)" name="Tunnel">
       <a name="label" val="CHECKING"/>
     </comp>
-    <comp lib="4" loc="(1750,110)" name="Counter">
-      <a name="width" val="1"/>
-      <a name="max" val="0x1"/>
-    </comp>
-    <comp lib="0" loc="(160,190)" name="Tunnel">
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="1" loc="(240,50)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(410,400)" name="Tunnel">
-      <a name="label" val="10SHIPS?"/>
-    </comp>
-    <comp lib="0" loc="(510,480)" name="Tunnel">
-      <a name="label" val="ROTATION_CLOCK"/>
-    </comp>
-    <comp lib="4" loc="(230,1040)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(170,1020)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-    </comp>
+    <comp lib="0" loc="(330,1030)" name="Constant"/>
     <comp lib="0" loc="(1610,430)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="POSITION_CLOCK"/>
-    </comp>
-    <comp lib="0" loc="(510,500)" name="Tunnel">
-      <a name="label" val="POSITION_CLOCK"/>
-    </comp>
-    <comp lib="0" loc="(180,870)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="BOOT_PHASE"/>
-    </comp>
-    <comp lib="0" loc="(370,50)" name="Tunnel">
-      <a name="label" val="SHOOT_PHASE"/>
-    </comp>
-    <comp lib="0" loc="(150,70)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="PREP_PHASE_END"/>
-    </comp>
-    <comp lib="1" loc="(250,1020)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(330,1030)" name="Constant"/>
-    <comp lib="1" loc="(400,400)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(660,180)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="WIN"/>
     </comp>
-    <comp lib="0" loc="(950,590)" name="Tunnel">
-      <a name="label" val="1ST_SHOT_DONE"/>
-    </comp>
-    <comp lib="4" loc="(330,840)" name="Counter">
-      <a name="width" val="5"/>
-      <a name="max" val="0x1f"/>
-    </comp>
-    <comp lib="0" loc="(400,1030)" name="Tunnel">
-      <a name="label" val="CONFIRM_CLOCK"/>
-    </comp>
-    <comp lib="0" loc="(1800,110)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="0" loc="(150,190)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="ROTATED"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(260,90)" name="NOT Gate"/>
-    <comp lib="4" loc="(930,590)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(260,110)" name="NOT Gate"/>
-    <comp lib="0" loc="(180,350)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="SHIPS_NUMBER"/>
+      <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(1800,260)" name="Pin">
       <a name="facing" val="west"/>
@@ -396,43 +243,195 @@
       <a name="label" val="CONFIRM"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(660,130)" name="Pin">
+    <comp lib="0" loc="(150,150)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="CHECKING"/>
+      <a name="label" val="CLR"/>
     </comp>
-    <comp lib="0" loc="(270,1030)" name="Pull Resistor">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(160,190)" name="Tunnel">
+      <a name="label" val="CLK"/>
     </comp>
-    <comp lib="0" loc="(150,220)" name="Clock"/>
-    <comp lib="1" loc="(500,480)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(260,90)" name="NOT Gate"/>
+    <comp lib="0" loc="(370,100)" name="Tunnel">
+      <a name="label" val="BOOT_PHASE"/>
+    </comp>
+    <comp lib="0" loc="(510,500)" name="Tunnel">
+      <a name="label" val="POSITION_CLOCK"/>
+    </comp>
+    <comp lib="0" loc="(1810,540)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Y"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(180,870)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BOOT_PHASE"/>
+    </comp>
+    <comp lib="0" loc="(400,1030)" name="Tunnel">
+      <a name="label" val="CONFIRM_CLOCK"/>
+    </comp>
     <comp lib="1" loc="(880,640)" name="Controlled Buffer">
       <a name="control" val="left"/>
     </comp>
-    <comp lib="0" loc="(1740,160)" name="Tunnel">
+    <comp lib="1" loc="(400,400)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="9" loc="(1790,460)" name="main"/>
+    <comp lib="0" loc="(320,880)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="0" loc="(950,590)" name="Tunnel">
+      <a name="label" val="1ST_SHOT_DONE"/>
+    </comp>
+    <comp lib="0" loc="(400,1000)" name="Tunnel">
+      <a name="label" val="POSITION_CLOCK"/>
+    </comp>
+    <comp lib="1" loc="(240,50)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(930,590)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(170,1050)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SHOOT"/>
+    </comp>
+    <comp lib="0" loc="(320,640)" name="Constant"/>
+    <comp lib="4" loc="(290,980)" name="Counter">
+      <a name="width" val="3"/>
+      <a name="max" val="0x7"/>
+    </comp>
+    <comp lib="4" loc="(1750,110)" name="Counter">
+      <a name="width" val="1"/>
+      <a name="max" val="0x1"/>
+    </comp>
+    <comp lib="1" loc="(260,880)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(1630,260)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="CONFIRM_CLOCK"/>
     </comp>
-    <comp lib="1" loc="(320,100)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="3" loc="(350,400)" name="Comparator">
+      <a name="width" val="4"/>
+      <a name="mode" val="unsigned"/>
     </comp>
-    <comp lib="4" loc="(290,980)" name="Counter">
-      <a name="width" val="3"/>
-      <a name="max" val="0x7"/>
+    <comp lib="0" loc="(150,110)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="10SHIPS?"/>
+    </comp>
+    <comp lib="0" loc="(950,640)" name="Tunnel">
+      <a name="label" val="SHOOT"/>
+    </comp>
+    <comp lib="2" loc="(340,640)" name="Demultiplexer">
+      <a name="select" val="5"/>
+    </comp>
+    <comp lib="2" loc="(340,1030)" name="Demultiplexer">
+      <a name="select" val="3"/>
+    </comp>
+    <comp lib="1" loc="(250,1020)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(1800,110)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="ROTATED"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(180,890)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(1630,110)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="ROTATION_CLOCK"/>
+    </comp>
+    <comp lib="0" loc="(510,520)" name="Tunnel">
+      <a name="label" val="CONFIRM_CLOCK"/>
+    </comp>
+    <comp lib="0" loc="(150,30)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="CURR_PLAYER"/>
+    </comp>
+    <comp lib="0" loc="(1810,430)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="X"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(290,410)" name="Constant">
       <a name="width" val="4"/>
       <a name="value" val="0xa"/>
     </comp>
+    <comp lib="1" loc="(500,520)" name="Controlled Buffer"/>
+    <comp lib="8" loc="(1790,350)" name="main"/>
+    <comp lib="1" loc="(500,480)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(320,100)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(680,130)" name="Tunnel">
+      <a name="label" val="CHECKING"/>
+    </comp>
+    <comp lib="0" loc="(410,400)" name="Tunnel">
+      <a name="label" val="10SHIPS?"/>
+    </comp>
+    <comp lib="4" loc="(330,840)" name="Counter">
+      <a name="width" val="5"/>
+      <a name="max" val="0x1f"/>
+    </comp>
+    <comp lib="0" loc="(150,70)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="PREP_PHASE_END"/>
+    </comp>
+    <comp lib="0" loc="(150,220)" name="Clock"/>
+    <comp lib="0" loc="(370,50)" name="Tunnel">
+      <a name="label" val="SHOOT_PHASE"/>
+    </comp>
+    <comp lib="0" loc="(370,350)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="SHIP_NUMBER"/>
+    </comp>
+    <comp lib="0" loc="(660,230)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="HIT"/>
+    </comp>
+    <comp lib="0" loc="(180,350)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="SHIPS_NUMBER"/>
+    </comp>
+    <comp lib="0" loc="(170,1020)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(800,640)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SHOOT_PHASE"/>
+    </comp>
+    <comp lib="1" loc="(500,500)" name="Controlled Buffer"/>
+    <comp lib="4" loc="(230,1040)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(270,1030)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="0" loc="(160,150)" name="Tunnel">
       <a name="label" val="CLR"/>
     </comp>
+    <comp lib="0" loc="(510,480)" name="Tunnel">
+      <a name="label" val="ROTATION_CLOCK"/>
+    </comp>
+    <comp lib="1" loc="(260,110)" name="NOT Gate"/>
     <comp lib="4" loc="(1700,110)" name="Random">
       <a name="width" val="1"/>
+    </comp>
+    <comp lib="0" loc="(680,230)" name="Tunnel">
+      <a name="label" val="HIT?"/>
+    </comp>
+    <comp lib="0" loc="(1740,160)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLR"/>
     </comp>
   </circuit>
 </project>

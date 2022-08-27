@@ -2107,7 +2107,6 @@
       <a name="width" val="3"/>
       <a name="enable" val="false"/>
     </comp>
-    <comp lib="14" loc="(2780,1330)" name="main"/>
     <comp lib="0" loc="(1550,1600)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -2676,7 +2675,6 @@
       <a name="width" val="30"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="12" loc="(1550,1100)" name="main"/>
     <comp lib="0" loc="(1500,3520)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -2804,7 +2802,6 @@
       <a name="width" val="5"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="12" loc="(380,1090)" name="main"/>
     <comp lib="0" loc="(1470,2880)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -3923,6 +3920,7 @@
       <a name="width" val="30"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="12" loc="(380,1090)" name="main"/>
     <comp lib="0" loc="(1810,3760)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="CURR_PLAYER"/>
@@ -4880,6 +4878,7 @@
       <a name="width" val="30"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="14" loc="(2780,1330)" name="main"/>
     <comp lib="0" loc="(1660,3360)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -5856,6 +5855,7 @@
       <a name="width" val="30"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="12" loc="(1550,1100)" name="main"/>
     <comp lib="0" loc="(1400,2420)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="5"/>

@@ -2107,6 +2107,7 @@
       <a name="width" val="3"/>
       <a name="enable" val="false"/>
     </comp>
+    <comp lib="14" loc="(2780,1330)" name="main"/>
     <comp lib="0" loc="(1550,1600)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -2396,7 +2397,6 @@
       <a name="width" val="30"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="14" loc="(2780,1330)" name="main"/>
     <comp lib="0" loc="(1660,710)" name="Constant">
       <a name="width" val="3"/>
       <a name="value" val="0x2"/>

@@ -88,60 +88,71 @@
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(1740,630)" to="(1740,640)"/>
-    <wire from="(1310,620)" to="(1320,620)"/>
-    <wire from="(1620,630)" to="(1620,640)"/>
-    <wire from="(1460,630)" to="(1460,640)"/>
-    <wire from="(1590,620)" to="(1600,620)"/>
-    <wire from="(1340,630)" to="(1340,640)"/>
+    <wire from="(1730,370)" to="(1730,380)"/>
+    <wire from="(1610,370)" to="(1610,380)"/>
+    <wire from="(1300,360)" to="(1310,360)"/>
+    <wire from="(1450,370)" to="(1450,380)"/>
+    <wire from="(1580,360)" to="(1590,360)"/>
+    <wire from="(1330,370)" to="(1330,380)"/>
+    <comp lib="5" loc="(10,300)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(1590,360)" name="Keyboard"/>
+    <comp lib="0" loc="(1300,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="K1CLK"/>
+    </comp>
+    <comp lib="7" loc="(10,0)" name="main"/>
     <comp lib="0" loc="(1010,660)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="7"/>
       <a name="label" val="K2DATA"/>
     </comp>
-    <comp lib="0" loc="(1590,620)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="K2CLK"/>
+    <comp lib="0" loc="(360,660)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="7"/>
+      <a name="label" val="K1DATA"/>
     </comp>
-    <comp lib="5" loc="(310,600)" name="DotMatrix">
+    <comp lib="5" loc="(310,300)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#27bbff"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(10,600)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(610,1300)" name="DotMatrix">
+    <comp lib="5" loc="(910,600)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#ff4442"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(310,1000)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
+    <comp lib="0" loc="(890,660)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="K2RST"/>
     </comp>
-    <comp lib="0" loc="(220,650)" name="Tunnel">
-      <a name="label" val="K1CLK"/>
+    <comp lib="0" loc="(1580,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="K2CLK"/>
     </comp>
     <comp lib="0" loc="(240,660)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="K1RST"/>
     </comp>
-    <comp lib="5" loc="(310,300)" name="DotMatrix">
+    <comp lib="5" loc="(1310,360)" name="Keyboard"/>
+    <comp lib="0" loc="(1730,380)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="7"/>
+      <a name="label" val="K2DATA"/>
+    </comp>
+    <comp lib="5" loc="(610,1300)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
+      <a name="color" val="#ff4442"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
@@ -159,13 +170,6 @@
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(610,1000)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
     <comp lib="5" loc="(610,600)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
@@ -173,27 +177,25 @@
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(910,600)" name="DotMatrix">
+    <comp lib="5" loc="(610,1000)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#ff4442"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(1600,620)" name="Keyboard"/>
-    <comp lib="5" loc="(910,1000)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="0" loc="(1340,640)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K1RST"/>
-    </comp>
-    <comp lib="7" loc="(10,0)" name="main"/>
     <comp lib="5" loc="(310,1300)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="0" loc="(1610,380)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="K2RST"/>
+    </comp>
+    <comp lib="5" loc="(10,600)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#27bbff"/>
@@ -207,37 +209,19 @@
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(910,300)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(1320,620)" name="Keyboard"/>
-    <comp lib="5" loc="(10,300)" name="DotMatrix">
+    <comp lib="5" loc="(310,600)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#27bbff"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="0" loc="(870,650)" name="Tunnel">
-      <a name="label" val="K2CLK"/>
-    </comp>
-    <comp lib="0" loc="(1620,640)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K2RST"/>
-    </comp>
-    <comp lib="0" loc="(360,660)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="7"/>
-      <a name="label" val="K1DATA"/>
-    </comp>
-    <comp lib="0" loc="(1740,640)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="7"/>
-      <a name="label" val="K2DATA"/>
+    <comp lib="5" loc="(310,1000)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
     </comp>
     <comp lib="5" loc="(610,300)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
@@ -246,14 +230,17 @@
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="0" loc="(1460,640)" name="Tunnel">
+    <comp lib="5" loc="(910,1000)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="0" loc="(1450,380)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="7"/>
       <a name="label" val="K1DATA"/>
-    </comp>
-    <comp lib="0" loc="(1310,620)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="K1CLK"/>
     </comp>
     <comp lib="5" loc="(570,690)" name="DotMatrix">
       <a name="matrixcols" val="8"/>
@@ -261,9 +248,22 @@
       <a name="color" val="#b2ff3c"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(890,660)" name="Tunnel">
+    <comp lib="5" loc="(910,300)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="0" loc="(220,650)" name="Tunnel">
+      <a name="label" val="K1CLK"/>
+    </comp>
+    <comp lib="0" loc="(1330,380)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="K2RST"/>
+      <a name="label" val="K1RST"/>
+    </comp>
+    <comp lib="0" loc="(870,650)" name="Tunnel">
+      <a name="label" val="K2CLK"/>
     </comp>
   </circuit>
 </project>

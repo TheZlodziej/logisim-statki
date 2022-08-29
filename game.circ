@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project source="2.7.1" version="1.0">
-This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
-<lib desc="#Wiring" name="0">
+  This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+
+  <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="facing" val="south"/>
     </tool>
@@ -101,22 +102,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1680,230)" to="(1680,240)"/>
     <wire from="(1650,90)" to="(1660,90)"/>
     <wire from="(1650,220)" to="(1660,220)"/>
-    <comp lib="5" loc="(690,380)" name="7-Segment Display"/>
-    <comp lib="8" loc="(680,480)" name="main"/>
-    <comp lib="5" loc="(900,1040)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(1200,340)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
+    <comp lib="5" loc="(1660,90)" name="Keyboard"/>
+    <comp lib="5" loc="(730,380)" name="7-Segment Display"/>
     <comp lib="5" loc="(1200,640)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
@@ -124,7 +111,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(350,340)" name="DotMatrix">
+    <comp lib="5" loc="(50,640)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#27bbff"/>
@@ -138,64 +125,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(50,640)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="0" loc="(400,700)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="7"/>
-      <a name="label" val="K1DATA"/>
-    </comp>
-    <comp lib="5" loc="(780,380)" name="7-Segment Display"/>
-    <comp lib="5" loc="(780,270)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1680,110)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K1RST"/>
-    </comp>
-    <comp lib="0" loc="(1300,700)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="7"/>
-      <a name="label" val="K2DATA"/>
-    </comp>
     <comp lib="5" loc="(1660,220)" name="Keyboard"/>
-    <comp lib="5" loc="(690,480)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1680,240)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K2RST"/>
-    </comp>
-    <comp lib="8" loc="(680,160)" name="main"/>
-    <comp lib="0" loc="(1180,700)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K2RST"/>
-    </comp>
-    <comp lib="0" loc="(260,690)" name="Tunnel">
-      <a name="label" val="K1CLK"/>
-    </comp>
-    <comp lib="5" loc="(50,1040)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(820,380)" name="7-Segment Display"/>
-    <comp lib="5" loc="(900,1340)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(1660,90)" name="Keyboard"/>
-    <comp lib="0" loc="(1800,240)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="7"/>
-      <a name="label" val="K2DATA"/>
-    </comp>
     <comp lib="5" loc="(50,340)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
@@ -203,50 +133,39 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="8" loc="(680,270)" name="main"/>
+    <comp lib="5" loc="(690,160)" name="7-Segment Display"/>
     <comp lib="8" loc="(680,380)" name="main"/>
-    <comp lib="0" loc="(1160,690)" name="Tunnel">
-      <a name="label" val="K2CLK"/>
-    </comp>
-    <comp lib="5" loc="(50,1340)" name="DotMatrix">
+    <comp lib="5" loc="(900,640)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
+      <a name="color" val="#ff4442"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(780,380)" name="7-Segment Display"/>
+    <comp lib="8" loc="(680,270)" name="main"/>
+    <comp lib="0" loc="(1650,220)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="K2CLK"/>
+    </comp>
+    <comp lib="0" loc="(1800,110)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="7"/>
+      <a name="label" val="K1DATA"/>
     </comp>
     <comp lib="0" loc="(1650,90)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="K1CLK"/>
     </comp>
-    <comp lib="0" loc="(280,700)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K1RST"/>
-    </comp>
-    <comp lib="5" loc="(740,720)" name="DotMatrix">
-      <a name="matrixcols" val="8"/>
-      <a name="matrixrows" val="5"/>
-      <a name="color" val="#b2ff3c"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(730,380)" name="7-Segment Display"/>
-    <comp lib="5" loc="(690,270)" name="7-Segment Display"/>
-    <comp lib="5" loc="(730,270)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1650,220)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="K2CLK"/>
-    </comp>
+    <comp lib="8" loc="(680,160)" name="main"/>
     <comp lib="5" loc="(820,480)" name="7-Segment Display"/>
-    <comp lib="5" loc="(820,160)" name="7-Segment Display"/>
-    <comp lib="5" loc="(350,1340)" name="DotMatrix">
+    <comp lib="5" loc="(900,1340)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
+      <a name="color" val="#ff4442"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(690,160)" name="7-Segment Display"/>
-    <comp lib="5" loc="(730,160)" name="7-Segment Display"/>
     <comp lib="5" loc="(900,340)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
@@ -254,12 +173,50 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(900,640)" name="DotMatrix">
+    <comp lib="5" loc="(820,160)" name="7-Segment Display"/>
+    <comp lib="5" loc="(780,160)" name="7-Segment Display"/>
+    <comp lib="8" loc="(680,480)" name="main"/>
+    <comp lib="5" loc="(730,270)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1680,240)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="K2RST"/>
+    </comp>
+    <comp lib="0" loc="(280,700)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="K1RST"/>
+    </comp>
+    <comp lib="5" loc="(690,380)" name="7-Segment Display"/>
+    <comp lib="5" loc="(50,1340)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(1200,340)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#ff4442"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
+    </comp>
+    <comp lib="0" loc="(1180,700)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="K2RST"/>
+    </comp>
+    <comp lib="5" loc="(780,270)" name="7-Segment Display"/>
+    <comp lib="7" loc="(10,0)" name="main"/>
+    <comp lib="5" loc="(1200,1340)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="0" loc="(1800,240)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="7"/>
+      <a name="label" val="K2DATA"/>
     </comp>
     <comp lib="5" loc="(350,640)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
@@ -268,15 +225,55 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(780,160)" name="7-Segment Display"/>
-    <comp lib="5" loc="(820,270)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1160,690)" name="Tunnel">
+      <a name="label" val="K2CLK"/>
+    </comp>
+    <comp lib="5" loc="(740,720)" name="DotMatrix">
+      <a name="matrixcols" val="8"/>
+      <a name="matrixrows" val="5"/>
+      <a name="color" val="#b2ff3c"/>
+      <a name="offcolor" val="#000000"/>
+    </comp>
+    <comp lib="5" loc="(900,1040)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
     <comp lib="5" loc="(730,480)" name="7-Segment Display"/>
-    <comp lib="7" loc="(10,0)" name="main"/>
-    <comp lib="0" loc="(1800,110)" name="Tunnel">
+    <comp lib="0" loc="(1300,700)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="7"/>
+      <a name="label" val="K2DATA"/>
+    </comp>
+    <comp lib="5" loc="(50,1040)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(690,270)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1680,110)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="K1RST"/>
+    </comp>
+    <comp lib="0" loc="(400,700)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="7"/>
       <a name="label" val="K1DATA"/>
     </comp>
+    <comp lib="5" loc="(690,480)" name="7-Segment Display"/>
+    <comp lib="5" loc="(780,480)" name="7-Segment Display"/>
+    <comp lib="5" loc="(350,340)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(820,380)" name="7-Segment Display"/>
     <comp lib="5" loc="(1200,1040)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
@@ -284,13 +281,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(780,480)" name="7-Segment Display"/>
-    <comp lib="5" loc="(1200,1340)" name="DotMatrix">
+    <comp lib="5" loc="(820,270)" name="7-Segment Display"/>
+    <comp lib="5" loc="(350,1340)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
+      <a name="color" val="#27bbff"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(730,160)" name="7-Segment Display"/>
+    <comp lib="0" loc="(260,690)" name="Tunnel">
+      <a name="label" val="K1CLK"/>
     </comp>
   </circuit>
 </project>

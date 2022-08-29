@@ -18,6 +18,9 @@
     <tool name="Pull Resistor">
       <a name="facing" val="north"/>
     </tool>
+    <tool name="Clock">
+      <a name="facing" val="north"/>
+    </tool>
     <tool name="Constant">
       <a name="facing" val="north"/>
     </tool>
@@ -74,7 +77,7 @@
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <rect fill="none" height="150" stroke="#000000" stroke-width="2" width="210" x="50" y="20"/>
+      <rect fill="none" height="190" stroke="#000000" stroke-width="2" width="210" x="50" y="20"/>
       <text font-family="SansSerif" font-size="16" text-anchor="middle" x="152" y="40">SHOOTER</text>
       <polyline fill="none" points="50,50 259,50" stroke="#000000" stroke-width="2"/>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="69" y="74">CLK</text>
@@ -83,13 +86,15 @@
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="215" y="154">SHOT_DONE</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="80" y="114">SHOOT</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="102" y="154">SHOOT_PHASE</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="69" y="194">CLR</text>
       <circ-port height="8" pin="110,120" width="8" x="46" y="66"/>
       <circ-port height="8" pin="110,160" width="8" x="46" y="106"/>
       <circ-port height="8" pin="110,210" width="8" x="46" y="146"/>
       <circ-port height="10" pin="390,120" width="10" x="255" y="65"/>
       <circ-port height="10" pin="390,160" width="10" x="255" y="105"/>
       <circ-port height="10" pin="390,200" width="10" x="255" y="145"/>
-      <circ-anchor facing="east" height="6" width="6" x="197" y="17"/>
+      <circ-port height="8" pin="110,260" width="8" x="46" y="186"/>
+      <circ-anchor facing="east" height="6" width="6" x="257" y="17"/>
     </appear>
     <wire from="(540,480)" to="(540,490)"/>
     <wire from="(540,780)" to="(540,790)"/>
@@ -117,6 +122,7 @@
     <wire from="(460,510)" to="(480,510)"/>
     <wire from="(480,490)" to="(500,490)"/>
     <wire from="(460,490)" to="(480,490)"/>
+    <wire from="(330,930)" to="(330,970)"/>
     <wire from="(310,770)" to="(320,770)"/>
     <wire from="(320,700)" to="(330,700)"/>
     <wire from="(380,120)" to="(390,120)"/>
@@ -153,55 +159,100 @@
     <wire from="(320,770)" to="(320,820)"/>
     <wire from="(110,120)" to="(120,120)"/>
     <wire from="(110,160)" to="(120,160)"/>
+    <wire from="(110,260)" to="(120,260)"/>
     <wire from="(380,700)" to="(380,950)"/>
     <wire from="(390,690)" to="(390,810)"/>
     <wire from="(540,790)" to="(550,790)"/>
-    <comp lib="1" loc="(520,490)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(110,160)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="4" loc="(370,690)" name="Counter">
-      <a name="width" val="5"/>
-      <a name="max" val="0x1f"/>
-    </comp>
-    <comp lib="0" loc="(350,760)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(380,160)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CONFIRM_CLOCK"/>
-    </comp>
-    <comp lib="0" loc="(250,750)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(120,160)" name="Tunnel">
-      <a name="label" val="SHOOT"/>
-    </comp>
-    <comp lib="0" loc="(280,940)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="SHOOT_PHASE"/>
-    </comp>
-    <comp lib="4" loc="(320,690)" name="Counter">
-      <a name="width" val="4"/>
-      <a name="max" val="0xf"/>
-    </comp>
     <comp lib="0" loc="(390,120)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(550,480)" name="Tunnel">
+    <comp lib="0" loc="(380,120)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="label" val="POSITION_CLOCK"/>
+    </comp>
+    <comp lib="0" loc="(120,160)" name="Tunnel">
+      <a name="label" val="SHOOT"/>
+    </comp>
+    <comp lib="0" loc="(250,750)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="4" loc="(320,690)" name="Counter">
+      <a name="width" val="4"/>
+      <a name="max" val="0xf"/>
+    </comp>
+    <comp lib="0" loc="(410,640)" name="Constant"/>
+    <comp lib="0" loc="(480,490)" name="Pull Resistor"/>
+    <comp lib="0" loc="(490,790)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(350,760)" name="Pull Resistor">
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(380,200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SHOT_DONE"/>
     </comp>
-    <comp lib="0" loc="(480,490)" name="Pull Resistor"/>
     <comp lib="0" loc="(250,780)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SHOOT"/>
+    </comp>
+    <comp lib="1" loc="(520,500)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(550,500)" name="Tunnel">
+      <a name="label" val="CONFIRM_CLOCK"/>
+    </comp>
+    <comp lib="0" loc="(110,160)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="2" loc="(420,640)" name="Demultiplexer">
+      <a name="select" val="5"/>
+    </comp>
+    <comp lib="0" loc="(330,970)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="0" loc="(110,210)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(330,750)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(390,160)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(260,810)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(550,480)" name="Tunnel">
+      <a name="label" val="POSITION_CLOCK"/>
+    </comp>
+    <comp lib="0" loc="(550,790)" name="Tunnel">
+      <a name="label" val="SHOT_DONE"/>
+    </comp>
+    <comp lib="1" loc="(520,490)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(310,940)" name="NOT Gate"/>
+    <comp lib="0" loc="(380,160)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CONFIRM_CLOCK"/>
+    </comp>
+    <comp lib="0" loc="(120,260)" name="Tunnel">
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="4" loc="(370,690)" name="Counter">
+      <a name="width" val="5"/>
+      <a name="max" val="0x1f"/>
+    </comp>
+    <comp lib="0" loc="(480,510)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(110,120)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(280,940)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SHOOT_PHASE"/>
     </comp>
     <comp lib="0" loc="(390,200)" name="Pin">
       <a name="facing" val="west"/>
@@ -211,50 +262,16 @@
     <comp lib="0" loc="(120,210)" name="Tunnel">
       <a name="label" val="SHOOT_PHASE"/>
     </comp>
-    <comp lib="0" loc="(410,640)" name="Constant"/>
-    <comp lib="0" loc="(260,810)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(390,160)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="2" loc="(420,640)" name="Demultiplexer">
-      <a name="select" val="5"/>
-    </comp>
-    <comp lib="0" loc="(110,210)" name="Pin">
+    <comp lib="0" loc="(110,260)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(330,750)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(550,790)" name="Tunnel">
-      <a name="label" val="SHOT_DONE"/>
-    </comp>
-    <comp lib="1" loc="(520,500)" name="Controlled Buffer"/>
+    <comp lib="4" loc="(310,770)" name="D Flip-Flop"/>
     <comp lib="1" loc="(330,880)" name="OR Gate">
       <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(120,120)" name="Tunnel">
       <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(490,790)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="4" loc="(310,770)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(480,510)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(310,940)" name="NOT Gate"/>
-    <comp lib="0" loc="(380,120)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="POSITION_CLOCK"/>
-    </comp>
-    <comp lib="0" loc="(110,120)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(550,500)" name="Tunnel">
-      <a name="label" val="CONFIRM_CLOCK"/>
     </comp>
   </circuit>
 </project>

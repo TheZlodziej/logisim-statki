@@ -96,212 +96,265 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(1510,30)" to="(1680,30)"/>
-    <wire from="(1510,10)" to="(1680,10)"/>
-    <wire from="(1800,100)" to="(1800,110)"/>
-    <wire from="(1800,230)" to="(1800,240)"/>
-    <wire from="(1680,100)" to="(1680,110)"/>
-    <wire from="(1680,230)" to="(1680,240)"/>
-    <wire from="(1650,90)" to="(1660,90)"/>
-    <wire from="(1650,220)" to="(1660,220)"/>
-    <comp lib="5" loc="(820,480)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1680,10)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="tristate" val="false"/>
+    <comp lib="5" loc="(730,160)" name="7-Segment Display"/>
+    <comp lib="6" loc="(1693,456)" name="Text">
+      <a name="text" val="JAK GRAĆ?"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
     </comp>
-    <comp lib="0" loc="(1680,110)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K1RST"/>
-    </comp>
-    <comp lib="5" loc="(780,380)" name="7-Segment Display"/>
-    <comp lib="8" loc="(680,480)" name="main"/>
-    <comp lib="5" loc="(50,340)" name="DotMatrix">
+    <comp lib="5" loc="(90,640)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#27bbff"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(350,1340)" name="DotMatrix">
+    <comp lib="6" loc="(1684,1046)" name="Text">
+      <a name="text" val="Częstotliwość zegara: 4.1k Hz."/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="8" loc="(720,380)" name="main"/>
+    <comp lib="5" loc="(820,270)" name="7-Segment Display"/>
+    <comp lib="5" loc="(860,160)" name="7-Segment Display"/>
+    <comp lib="5" loc="(860,480)" name="7-Segment Display"/>
+    <comp lib="6" loc="(1686,1288)" name="Text">
+      <a name="text" val="należy &quot;pociągnąć&quot; połączenia do odpowiednich elementów IO, znajdujących się poza układem."/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(1694,780)" name="Text">
+      <a name="text" val="Po zakończeniu gry, gdy &quot;GAME TIME&quot; pokazuje 00:00,"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(390,1340)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#27bbff"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(780,160)" name="7-Segment Display"/>
-    <comp lib="5" loc="(50,1340)" name="DotMatrix">
+    <comp lib="8" loc="(720,270)" name="main"/>
+    <comp lib="5" loc="(1240,1040)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(390,1040)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#27bbff"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(350,640)" name="DotMatrix">
+    <comp lib="5" loc="(1240,340)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
+      <a name="color" val="#ff4442"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
+    <comp lib="6" loc="(1712,642)" name="Text">
+      <a name="text" val="R - obrót statku"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(820,380)" name="7-Segment Display"/>
+    <comp lib="5" loc="(770,480)" name="7-Segment Display"/>
     <comp lib="5" loc="(730,270)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1680,240)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K2RST"/>
+    <comp lib="5" loc="(90,340)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
     </comp>
-    <comp lib="0" loc="(1650,90)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="K1CLK"/>
+    <comp lib="6" loc="(1688,1101)" name="Text">
+      <a name="text" val="W celu prawidłowego wyświetlania czasu rozgrywki, w module"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
     </comp>
-    <comp lib="5" loc="(690,380)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1300,700)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="7"/>
-      <a name="label" val="K2DATA"/>
+    <comp lib="5" loc="(860,380)" name="7-Segment Display"/>
+    <comp lib="5" loc="(390,340)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(740,720)" name="DotMatrix">
+    <comp lib="6" loc="(1693,729)" name="Text">
+      <a name="text" val="Gra automatycznie rozpoczyna się."/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(1711,521)" name="Text">
+      <a name="text" val="A - ruch w lewo"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(1685,1173)" name="Text">
+      <a name="text" val="częstotliwości zegara pokazaną w aplikacji (prawy górny róg)."/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(1240,1340)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(940,640)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="6" loc="(1709,582)" name="Text">
+      <a name="text" val="S - ruch w dół"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(1710,676)" name="Text">
+      <a name="text" val="ENTER - przycisk potwierdzający dodanie statku / sprawdzenie pozycji"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(780,720)" name="DotMatrix">
       <a name="matrixcols" val="8"/>
       <a name="matrixrows" val="5"/>
       <a name="color" val="#b2ff3c"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="5" loc="(350,1040)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="0" loc="(1160,690)" name="Tunnel">
-      <a name="label" val="K2CLK"/>
-    </comp>
-    <comp lib="5" loc="(900,1340)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(690,160)" name="7-Segment Display"/>
-    <comp lib="5" loc="(1200,340)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(820,270)" name="7-Segment Display"/>
-    <comp lib="0" loc="(260,690)" name="Tunnel">
-      <a name="label" val="K1CLK"/>
-    </comp>
-    <comp lib="5" loc="(730,480)" name="7-Segment Display"/>
-    <comp lib="8" loc="(680,160)" name="main"/>
-    <comp lib="0" loc="(280,700)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K1RST"/>
-    </comp>
-    <comp lib="5" loc="(50,640)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(350,340)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(820,160)" name="7-Segment Display"/>
-    <comp lib="5" loc="(1200,640)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="0" loc="(1650,220)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="K2CLK"/>
-    </comp>
-    <comp lib="5" loc="(50,1040)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#27bbff"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(900,1040)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="0" loc="(1180,700)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="K2RST"/>
-    </comp>
-    <comp lib="5" loc="(900,640)" name="DotMatrix">
-      <a name="matrixcols" val="30"/>
-      <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
-      <a name="offcolor" val="#000000"/>
-      <a name="persist" val="500"/>
-    </comp>
-    <comp lib="5" loc="(730,160)" name="7-Segment Display"/>
-    <comp lib="5" loc="(780,480)" name="7-Segment Display"/>
-    <comp lib="5" loc="(780,270)" name="7-Segment Display"/>
-    <comp lib="8" loc="(680,380)" name="main"/>
+    <comp lib="5" loc="(1820,50)" name="Button"/>
     <comp lib="5" loc="(730,380)" name="7-Segment Display"/>
-    <comp lib="5" loc="(820,380)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1800,110)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="7"/>
-      <a name="label" val="K1DATA"/>
+    <comp lib="6" loc="(1697,866)" name="Text">
+      <a name="text" val="Aby uruchomić grę przeciwko komputerowi, należy ustawić logiczne 1 na wejściu &quot;BOT?&quot;."/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
     </comp>
-    <comp lib="5" loc="(1200,1040)" name="DotMatrix">
+    <comp lib="8" loc="(720,160)" name="main"/>
+    <comp lib="5" loc="(770,160)" name="7-Segment Display"/>
+    <comp lib="5" loc="(730,480)" name="7-Segment Display"/>
+    <comp lib="5" loc="(820,160)" name="7-Segment Display"/>
+    <comp lib="6" loc="(1685,1137)" name="Text">
+      <a name="text" val="&quot;timer.circ&quot; należy ustawić odpowiednią wartość maksymalną countera odpowiadającą"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(940,340)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#ff4442"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="0" loc="(1800,240)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="7"/>
-      <a name="label" val="K2DATA"/>
-    </comp>
-    <comp lib="5" loc="(1660,90)" name="Keyboard"/>
-    <comp lib="5" loc="(1200,1340)" name="DotMatrix">
+    <comp lib="5" loc="(1240,640)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
       <a name="color" val="#ff4442"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(690,480)" name="7-Segment Display"/>
-    <comp lib="5" loc="(900,340)" name="DotMatrix">
+    <comp lib="5" loc="(90,1040)" name="DotMatrix">
       <a name="matrixcols" val="30"/>
       <a name="matrixrows" val="30"/>
-      <a name="color" val="#ff4442"/>
+      <a name="color" val="#27bbff"/>
       <a name="offcolor" val="#000000"/>
       <a name="persist" val="500"/>
     </comp>
-    <comp lib="5" loc="(1660,220)" name="Keyboard"/>
-    <comp lib="8" loc="(680,270)" name="main"/>
-    <comp lib="5" loc="(690,270)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1680,30)" name="Pin">
-      <a name="facing" val="west"/>
+    <comp lib="6" loc="(1697,895)" name="Text">
+      <a name="text" val="Zmiana tego wejścia w trakcie gry powoduje jedynie to, że bot"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(1689,490)" name="Text">
+      <a name="text" val="Sterowanie kursorem"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(1709,550)" name="Text">
+      <a name="text" val="W - ruch w górę"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(820,480)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1820,110)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="7" loc="(10,0)" name="main"/>
-    <comp lib="0" loc="(400,700)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="7"/>
-      <a name="label" val="K1DATA"/>
+    <comp lib="5" loc="(90,1340)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="6" loc="(1712,612)" name="Text">
+      <a name="text" val="D - ruch w prawo"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(770,270)" name="7-Segment Display"/>
+    <comp lib="5" loc="(1820,220)" name="Keyboard"/>
+    <comp lib="5" loc="(390,640)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#27bbff"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="8" loc="(720,480)" name="main"/>
+    <comp lib="6" loc="(1687,1259)" name="Text">
+      <a name="text" val="automatyczne wybieranie całego modułu &quot;app.circ&quot; przez symulator,"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="6" loc="(1685,1003)" name="Text">
+      <a name="text" val="USTAWIENIA:"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(1820,310)" name="Keyboard"/>
+    <comp lib="6" loc="(1688,1231)" name="Text">
+      <a name="text" val="W przypadku, gdy kliknięcie w klawiaturę/przyciski okazuje się trudne, przez"/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(860,270)" name="7-Segment Display"/>
+    <comp lib="6" loc="(1690,811)" name="Text">
+      <a name="text" val=" aby uruchomić kolejną grę, należy przycisnąć przycisk &quot;RESET&quot;."/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(770,380)" name="7-Segment Display"/>
+    <comp lib="6" loc="(1686,1340)" name="Text">
+      <a name="text" val="Przed grą należy odpowiednio oddalić ekran tak, aby wszystkie pola były widoczne."/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="5" loc="(940,1040)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="5" loc="(940,1340)" name="DotMatrix">
+      <a name="matrixcols" val="30"/>
+      <a name="matrixrows" val="30"/>
+      <a name="color" val="#ff4442"/>
+      <a name="offcolor" val="#000000"/>
+      <a name="persist" val="500"/>
+    </comp>
+    <comp lib="7" loc="(40,0)" name="main"/>
+    <comp lib="6" loc="(1694,921)" name="Text">
+      <a name="text" val=" przestaje wykonywać ruchy - grę może kontynuować inny gracz."/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="left"/>
     </comp>
   </circuit>
 </project>

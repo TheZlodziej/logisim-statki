@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project source="2.7.1" version="1.0">
-  This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
-
-  <lib desc="#Wiring" name="0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="facing" val="west"/>
     </tool>
@@ -42,7 +41,6 @@
     </tool>
   </lib>
   <lib desc="file#tick.circ" name="7"/>
-  <lib desc="file#SRlatch.circ" name="8"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -310,264 +308,106 @@
     <wire from="(890,320)" to="(900,320)"/>
     <wire from="(1560,500)" to="(1580,500)"/>
     <wire from="(1540,480)" to="(1560,480)"/>
-    <comp lib="0" loc="(1020,290)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(110,660)" name="Clock"/>
-    <comp lib="0" loc="(670,790)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="~HIT REGISTER"/>
-    </comp>
-    <comp lib="0" loc="(1540,210)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="not hit &gt; 0?"/>
-    </comp>
-    <comp lib="1" loc="(1060,930)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(110,600)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="X"/>
-    </comp>
-    <comp lib="0" loc="(1060,330)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="1" loc="(1450,400)" name="Controlled Buffer">
-      <a name="control" val="left"/>
-    </comp>
-    <comp lib="1" loc="(680,800)" name="Controlled Buffer">
-      <a name="control" val="left"/>
-    </comp>
     <comp lib="4" loc="(860,270)" name="Counter">
       <a name="max" val="0x90"/>
       <a name="label" val="STABLE COUNTER"/>
     </comp>
-    <comp lib="0" loc="(1010,550)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="CLR"/>
+    <comp lib="1" loc="(1660,490)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(1480,240)" name="Tunnel">
+    <comp lib="0" loc="(190,770)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="~HIT"/>
     </comp>
-    <comp lib="0" loc="(1120,790)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="~HIT REGISTER"/>
+    <comp lib="1" loc="(1060,930)" name="AND Gate">
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(120,140)" name="Pin">
+    <comp lib="0" loc="(1170,550)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1240,270)" name="Tunnel">
+      <a name="width" val="8"/>
+      <a name="label" val="ADDRESS"/>
+    </comp>
+    <comp lib="4" loc="(1210,720)" name="Counter"/>
+    <comp lib="0" loc="(1540,520)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(680,800)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(260,640)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="6" loc="(1501,559)" name="Text">
+      <a name="text" val="SECOND DATA SAVER"/>
     </comp>
     <comp lib="0" loc="(1860,490)" name="Pull Resistor">
       <a name="facing" val="north"/>
-    </comp>
-    <comp lib="3" loc="(610,800)" name="Comparator"/>
-    <comp lib="4" loc="(1900,420)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(1130,930)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="7" loc="(1650,370)" name="main"/>
-    <comp lib="4" loc="(350,440)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(1540,480)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="8"/>
-      <a name="label" val="DATA TO CHECK"/>
-    </comp>
-    <comp lib="0" loc="(110,620)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Y"/>
-    </comp>
-    <comp lib="0" loc="(1540,460)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(530,810)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="8"/>
       <a name="label" val="CURRENT MEM OUT"/>
     </comp>
-    <comp lib="1" loc="(230,630)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(1240,270)" name="Tunnel">
-      <a name="width" val="8"/>
-      <a name="label" val="ADDRESS"/>
-    </comp>
-    <comp lib="0" loc="(190,750)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(180,530)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(300,770)" name="Tunnel">
-      <a name="label" val="CHECKING..."/>
-    </comp>
-    <comp lib="0" loc="(1060,350)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="~HIT"/>
-    </comp>
-    <comp lib="0" loc="(1540,520)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(1840,490)" name="Controlled Buffer">
-      <a name="control" val="left"/>
-    </comp>
-    <comp lib="0" loc="(970,550)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(890,560)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="STORE"/>
-    </comp>
     <comp lib="4" loc="(270,590)" name="Register"/>
-    <comp lib="3" loc="(1620,490)" name="Comparator"/>
-    <comp lib="0" loc="(190,440)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="IF 1, save input"/>
-    </comp>
-    <comp lib="1" loc="(1530,390)" name="NOT Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="0" loc="(250,320)" name="Tunnel">
+    <comp lib="0" loc="(1610,220)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="SAVE N DATA3"/>
-    </comp>
-    <comp lib="0" loc="(1200,800)" name="Tunnel">
-      <a name="label" val="NO SUCC RESET"/>
-    </comp>
-    <comp lib="4" loc="(1210,270)" name="Counter">
-      <a name="max" val="0x90"/>
-      <a name="label" val="UNSTABLE COUNTER"/>
-    </comp>
-    <comp lib="0" loc="(220,510)" name="Pull Resistor"/>
-    <comp lib="0" loc="(190,830)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="NO SUCC RESET"/>
-    </comp>
-    <comp lib="1" loc="(250,850)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(1476,275)" name="Text">
-      <a name="text" val="FITRST DATA SAVER"/>
-    </comp>
-    <comp lib="0" loc="(680,800)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(1720,490)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1540,230)" name="NOT Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="0" loc="(1140,510)" name="Splitter">
-      <a name="incoming" val="8"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="1"/>
-      <a name="bit5" val="1"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-    </comp>
-    <comp lib="0" loc="(680,510)" name="Tunnel">
-      <a name="width" val="8"/>
-      <a name="label" val="CHECKED DATA"/>
-    </comp>
-    <comp lib="0" loc="(100,140)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CHECKING..."/>
-    </comp>
-    <comp lib="0" loc="(110,580)" name="Tunnel">
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="0" loc="(1090,500)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="not hit &gt; 0?"/>
-    </comp>
-    <comp lib="0" loc="(260,640)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="0" loc="(1400,400)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="~HIT"/>
-    </comp>
-    <comp lib="0" loc="(850,300)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="0" loc="(960,950)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="MEM END"/>
+      <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(530,790)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="8"/>
       <a name="label" val="DATA TO CHECK"/>
     </comp>
-    <comp lib="1" loc="(1100,510)" name="Controlled Buffer">
-      <a name="width" val="8"/>
+    <comp lib="0" loc="(190,830)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="NO SUCC RESET"/>
+    </comp>
+    <comp lib="1" loc="(1450,400)" name="Controlled Buffer">
       <a name="control" val="left"/>
     </comp>
-    <comp lib="0" loc="(1540,500)" name="Tunnel">
-      <a name="facing" val="east"/>
+    <comp lib="0" loc="(340,590)" name="Tunnel">
       <a name="width" val="8"/>
-      <a name="label" val="CURRENT MEM OUT"/>
+      <a name="label" val="DATA TO CHECK"/>
     </comp>
-    <comp lib="0" loc="(970,710)" name="Tunnel">
-      <a name="label" val="IS DATA GOOD?"/>
+    <comp lib="1" loc="(230,630)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(1200,930)" name="Tunnel">
+      <a name="label" val="SAVE N DATA3"/>
     </comp>
-    <comp lib="0" loc="(580,190)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="0" loc="(890,510)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="8"/>
-      <a name="label" val="ADDRESS"/>
+    <comp lib="1" loc="(1540,230)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="20"/>
     </comp>
     <comp lib="0" loc="(290,490)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="CLK"/>
     </comp>
-    <comp lib="0" loc="(250,300)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="SAVE N DATA2"/>
+    <comp lib="0" loc="(530,770)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(1010,220)" name="Tunnel">
-      <a name="label" val="MEM END"/>
+    <comp lib="0" loc="(1540,210)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="not hit &gt; 0?"/>
     </comp>
-    <comp lib="0" loc="(1480,400)" name="Pull Resistor">
+    <comp lib="0" loc="(580,270)" name="Tunnel">
       <a name="facing" val="north"/>
+      <a name="label" val="CLR"/>
     </comp>
-    <comp lib="0" loc="(190,870)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="SAVE N DATA3"/>
-    </comp>
+    <comp lib="4" loc="(1660,220)" name="D Flip-Flop"/>
+    <comp lib="7" loc="(1650,370)" name="main"/>
+    <comp lib="7" loc="(1010,790)" name="main"/>
     <comp lib="1" loc="(830,780)" name="NOT Gate">
       <a name="size" val="20"/>
-    </comp>
-    <comp lib="4" loc="(590,170)" name="Counter">
-      <a name="width" val="2"/>
-      <a name="max" val="0x2"/>
-      <a name="ongoal" val="stay"/>
-      <a name="label" val="count form 0"/>
-    </comp>
-    <comp lib="4" loc="(640,520)" name="Register"/>
-    <comp lib="4" loc="(1210,720)" name="Counter"/>
-    <comp lib="1" loc="(1120,930)" name="Controlled Buffer">
-      <a name="control" val="left"/>
     </comp>
     <comp lib="1" loc="(1540,400)" name="Controlled Buffer">
       <a name="control" val="left"/>
@@ -577,193 +417,80 @@
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(890,530)" name="Tunnel">
+    <comp lib="0" loc="(100,140)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="width" val="8"/>
-      <a name="label" val="CHECKED DATA"/>
+      <a name="label" val="CHECKING..."/>
     </comp>
-    <comp lib="4" loc="(270,740)" name="Counter">
-      <a name="width" val="1"/>
-      <a name="max" val="0x1"/>
-      <a name="ongoal" val="stay"/>
-    </comp>
-    <comp lib="4" loc="(1210,870)" name="Counter"/>
-    <comp lib="1" loc="(250,770)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(1880,490)" name="Tunnel">
-      <a name="label" val="SAVE N DATA2"/>
-    </comp>
-    <comp lib="0" loc="(1170,490)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="4" loc="(1820,440)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(110,620)" name="Pin">
       <a name="width" val="4"/>
-      <a name="label" val="X"/>
-      <a name="labelloc" val="east"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Y"/>
     </comp>
-    <comp lib="6" loc="(1501,559)" name="Text">
-      <a name="text" val="SECOND DATA SAVER"/>
+    <comp lib="0" loc="(300,750)" name="Tunnel">
+      <a name="label" val="~HIT REGISTER"/>
     </comp>
-    <comp lib="0" loc="(580,270)" name="Tunnel">
+    <comp lib="1" loc="(1070,800)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(960,950)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="MEM END"/>
+    </comp>
+    <comp lib="0" loc="(1200,800)" name="Tunnel">
+      <a name="label" val="NO SUCC RESET"/>
+    </comp>
+    <comp lib="0" loc="(850,300)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="CLR"/>
     </comp>
-    <comp lib="1" loc="(190,690)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="0" loc="(720,170)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="not hit &gt; 1?"/>
-    </comp>
-    <comp lib="0" loc="(100,180)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="SAVE N DATA"/>
-    </comp>
-    <comp lib="7" loc="(330,480)" name="main"/>
-    <comp lib="4" loc="(260,500)" name="Counter">
-      <a name="width" val="2"/>
-      <a name="max" val="0x2"/>
-    </comp>
-    <comp lib="4" loc="(590,250)" name="Counter">
-      <a name="width" val="1"/>
-      <a name="max" val="0x1"/>
-      <a name="ongoal" val="stay"/>
-      <a name="label" val="count form 0"/>
-    </comp>
-    <comp lib="0" loc="(340,590)" name="Tunnel">
-      <a name="width" val="8"/>
-      <a name="label" val="DATA TO CHECK"/>
-    </comp>
-    <comp lib="0" loc="(1190,290)" name="Tunnel">
+    <comp lib="0" loc="(1480,400)" name="Pull Resistor">
       <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(970,710)" name="Tunnel">
+      <a name="label" val="IS DATA GOOD?"/>
+    </comp>
+    <comp lib="3" loc="(610,800)" name="Comparator"/>
+    <comp lib="0" loc="(110,640)" name="Pin">
+      <a name="tristate" val="false"/>
       <a name="label" val="CLK"/>
     </comp>
-    <comp lib="0" loc="(340,610)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="0" loc="(390,440)" name="Tunnel">
+      <a name="label" val="~HIT"/>
     </comp>
-    <comp lib="0" loc="(560,550)" name="Tunnel">
+    <comp lib="0" loc="(190,750)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="SAVE N DATA"/>
+      <a name="label" val="CLK"/>
     </comp>
-    <comp lib="0" loc="(190,770)" name="Tunnel">
+    <comp lib="0" loc="(990,560)" name="Constant">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(190,630)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="~HIT"/>
     </comp>
-    <comp lib="0" loc="(720,250)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="not hit &gt; 0?"/>
-    </comp>
-    <comp lib="0" loc="(1170,550)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(530,770)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1850,420)" name="Tunnel">
+    <comp lib="0" loc="(250,320)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
+      <a name="label" val="SAVE N DATA3"/>
     </comp>
-    <comp lib="0" loc="(620,300)" name="Pull Resistor">
-      <a name="facing" val="north"/>
+    <comp lib="1" loc="(1020,780)" name="NOT Gate">
+      <a name="size" val="20"/>
     </comp>
-    <comp lib="0" loc="(1010,140)" name="Tunnel">
-      <a name="label" val="STORE"/>
-    </comp>
-    <comp lib="0" loc="(110,580)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="0" loc="(800,820)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="NO SUCC RESET"/>
-    </comp>
-    <comp lib="0" loc="(510,300)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="SAVE N DATA"/>
+    <comp lib="1" loc="(250,770)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(1700,490)" name="Controlled Buffer">
+      <a name="control" val="left"/>
     </comp>
     <comp lib="4" loc="(810,770)" name="Counter">
       <a name="width" val="1"/>
       <a name="max" val="0x1"/>
       <a name="ongoal" val="stay"/>
     </comp>
-    <comp lib="0" loc="(1570,240)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="4" loc="(1040,510)" name="RAM">
-      <a name="bus" val="separate"/>
-    </comp>
-    <comp lib="7" loc="(1000,920)" name="main"/>
-    <comp lib="0" loc="(190,630)" name="Tunnel">
+    <comp lib="0" loc="(890,560)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="~HIT"/>
+      <a name="label" val="STORE"/>
     </comp>
-    <comp lib="0" loc="(1920,420)" name="Tunnel">
-      <a name="label" val="SECOND WRITE DONE"/>
-    </comp>
-    <comp lib="0" loc="(1110,920)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="~HIT REGISTER"/>
-    </comp>
-    <comp lib="7" loc="(230,740)" name="main"/>
-    <comp lib="0" loc="(960,930)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(390,440)" name="Tunnel">
-      <a name="label" val="~HIT"/>
-    </comp>
-    <comp lib="7" loc="(1010,790)" name="main"/>
-    <comp lib="0" loc="(170,690)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CHECKING..."/>
-    </comp>
-    <comp lib="0" loc="(140,660)" name="Tunnel">
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(680,530)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="8"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(300,750)" name="Tunnel">
-      <a name="label" val="~HIT REGISTER"/>
-    </comp>
-    <comp lib="7" loc="(1060,280)" name="main"/>
-    <comp lib="4" loc="(1820,440)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(250,280)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="SAVE N DATA1"/>
-    </comp>
-    <comp lib="0" loc="(990,560)" name="Constant">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="3" loc="(940,310)" name="Comparator"/>
-    <comp lib="1" loc="(1700,490)" name="Controlled Buffer">
-      <a name="control" val="left"/>
-    </comp>
-    <comp lib="1" loc="(1660,490)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(970,800)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(560,520)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="8"/>
-      <a name="label" val="DATA TO CHECK"/>
-    </comp>
-    <comp lib="1" loc="(300,300)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
+    <comp lib="0" loc="(110,580)" name="Tunnel">
+      <a name="label" val="CLR"/>
     </comp>
     <comp lib="0" loc="(1170,510)" name="Pin">
       <a name="facing" val="west"/>
@@ -772,11 +499,278 @@
       <a name="label" val="Y"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="0" loc="(1480,240)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="~HIT"/>
+    </comp>
+    <comp lib="4" loc="(640,520)" name="Register"/>
+    <comp lib="3" loc="(1620,490)" name="Comparator"/>
+    <comp lib="1" loc="(210,530)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(1130,800)" name="Controlled Buffer">
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="0" loc="(100,180)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SAVE N DATA"/>
+    </comp>
+    <comp lib="7" loc="(1000,920)" name="main"/>
+    <comp lib="0" loc="(1060,330)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="1" loc="(1840,490)" name="Controlled Buffer">
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="4" loc="(1900,420)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(890,510)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="label" val="ADDRESS"/>
+    </comp>
+    <comp lib="0" loc="(1170,530)" name="Tunnel">
+      <a name="width" val="8"/>
+      <a name="label" val="CURRENT MEM OUT"/>
+    </comp>
+    <comp lib="0" loc="(1540,480)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="label" val="DATA TO CHECK"/>
+    </comp>
+    <comp lib="0" loc="(1540,460)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(1040,510)" name="RAM">
+      <a name="bus" val="separate"/>
+    </comp>
+    <comp lib="0" loc="(300,770)" name="Tunnel">
+      <a name="label" val="CHECKING..."/>
+    </comp>
+    <comp lib="0" loc="(630,560)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="1" loc="(1140,330)" name="OR Gate"/>
+    <comp lib="0" loc="(970,550)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="4" loc="(260,500)" name="Counter">
+      <a name="width" val="2"/>
+      <a name="max" val="0x2"/>
+    </comp>
+    <comp lib="0" loc="(1570,240)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(110,660)" name="Clock"/>
+    <comp lib="0" loc="(110,580)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="0" loc="(250,770)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1090,500)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="not hit &gt; 0?"/>
+    </comp>
+    <comp lib="4" loc="(590,250)" name="Counter">
+      <a name="width" val="1"/>
+      <a name="max" val="0x1"/>
+      <a name="ongoal" val="stay"/>
+      <a name="label" val="count form 0"/>
+    </comp>
+    <comp lib="0" loc="(970,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="4" loc="(1210,270)" name="Counter">
+      <a name="max" val="0x90"/>
+      <a name="label" val="UNSTABLE COUNTER"/>
+    </comp>
+    <comp lib="0" loc="(620,300)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1440,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="not hit &gt; 0?"/>
+    </comp>
+    <comp lib="0" loc="(1610,380)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(1110,920)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="~HIT REGISTER"/>
+    </comp>
+    <comp lib="0" loc="(1140,800)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(110,600)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X"/>
+    </comp>
+    <comp lib="0" loc="(720,250)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="not hit &gt; 0?"/>
+    </comp>
+    <comp lib="1" loc="(830,300)" name="Controlled Buffer">
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="0" loc="(670,790)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="~HIT REGISTER"/>
+    </comp>
+    <comp lib="1" loc="(1100,510)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="1" loc="(250,850)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(220,790)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SECOND WRITE DONE"/>
+    </comp>
+    <comp lib="1" loc="(1120,930)" name="Controlled Buffer">
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="0" loc="(1010,550)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="0" loc="(800,820)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="NO SUCC RESET"/>
+    </comp>
+    <comp lib="0" loc="(1540,500)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="label" val="CURRENT MEM OUT"/>
+    </comp>
+    <comp lib="0" loc="(1400,400)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="~HIT"/>
+    </comp>
+    <comp lib="1" loc="(300,300)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1570,400)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="7" loc="(1060,280)" name="main"/>
+    <comp lib="0" loc="(680,510)" name="Tunnel">
+      <a name="width" val="8"/>
+      <a name="label" val="CHECKED DATA"/>
+    </comp>
+    <comp lib="0" loc="(1170,490)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="X"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(580,190)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLR"/>
+    </comp>
+    <comp lib="0" loc="(960,930)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(1530,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="SAVE N DATA"/>
+    </comp>
+    <comp lib="4" loc="(270,740)" name="Counter">
+      <a name="width" val="1"/>
+      <a name="max" val="0x1"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="4" loc="(1210,870)" name="Counter"/>
+    <comp lib="0" loc="(560,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SAVE N DATA"/>
+    </comp>
+    <comp lib="0" loc="(320,300)" name="Tunnel">
+      <a name="label" val="SAVE N DATA"/>
+    </comp>
+    <comp lib="0" loc="(1010,140)" name="Tunnel">
+      <a name="label" val="STORE"/>
+    </comp>
+    <comp lib="0" loc="(190,440)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="IF 1, save input"/>
+    </comp>
     <comp lib="0" loc="(240,640)" name="Pull Resistor">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(1680,220)" name="Tunnel">
+    <comp lib="0" loc="(250,280)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="label" val="SAVE N DATA1"/>
+    </comp>
+    <comp lib="0" loc="(1010,220)" name="Tunnel">
+      <a name="label" val="MEM END"/>
+    </comp>
+    <comp lib="0" loc="(170,690)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CHECKING..."/>
+    </comp>
+    <comp lib="0" loc="(120,140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(190,870)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SAVE N DATA3"/>
+    </comp>
+    <comp lib="0" loc="(890,530)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="label" val="CHECKED DATA"/>
+    </comp>
+    <comp lib="0" loc="(1020,290)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(1920,420)" name="Tunnel">
+      <a name="label" val="SECOND WRITE DONE"/>
+    </comp>
+    <comp lib="0" loc="(1880,490)" name="Tunnel">
+      <a name="label" val="SAVE N DATA2"/>
+    </comp>
+    <comp lib="1" loc="(190,690)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="0" loc="(1850,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(340,610)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(560,520)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="8"/>
+      <a name="label" val="DATA TO CHECK"/>
+    </comp>
+    <comp lib="1" loc="(1530,390)" name="NOT Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(1550,240)" name="Controlled Buffer">
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="0" loc="(1190,290)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(160,590)" name="Splitter">
       <a name="facing" val="west"/>
@@ -789,79 +783,83 @@
       <a name="bit6" val="1"/>
       <a name="bit7" val="1"/>
     </comp>
-    <comp lib="0" loc="(1440,370)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="not hit &gt; 0?"/>
+    <comp lib="4" loc="(350,440)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(1720,490)" name="Pull Resistor">
+      <a name="facing" val="north"/>
     </comp>
-    <comp lib="1" loc="(1020,780)" name="NOT Gate">
-      <a name="size" val="20"/>
+    <comp lib="4" loc="(590,170)" name="Counter">
+      <a name="width" val="2"/>
+      <a name="max" val="0x2"/>
+      <a name="ongoal" val="stay"/>
+      <a name="label" val="count form 0"/>
     </comp>
     <comp lib="0" loc="(530,830)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="8"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(210,530)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(110,640)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="CLK"/>
+    <comp lib="0" loc="(1680,220)" name="Tunnel">
+      <a name="label" val="SAVE N DATA1"/>
     </comp>
-    <comp lib="4" loc="(1660,220)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(830,300)" name="Controlled Buffer">
-      <a name="control" val="left"/>
-    </comp>
-    <comp lib="0" loc="(1170,530)" name="Tunnel">
-      <a name="width" val="8"/>
-      <a name="label" val="CURRENT MEM OUT"/>
-    </comp>
-    <comp lib="0" loc="(630,560)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="CLR"/>
-    </comp>
-    <comp lib="0" loc="(1200,930)" name="Tunnel">
-      <a name="label" val="SAVE N DATA3"/>
-    </comp>
-    <comp lib="1" loc="(1140,330)" name="OR Gate"/>
-    <comp lib="1" loc="(1130,800)" name="Controlled Buffer">
-      <a name="control" val="left"/>
-    </comp>
-    <comp lib="0" loc="(1610,220)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="CLK"/>
-    </comp>
-    <comp lib="0" loc="(220,790)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="SECOND WRITE DONE"/>
-    </comp>
-    <comp lib="0" loc="(1530,370)" name="Tunnel">
+    <comp lib="0" loc="(1120,790)" name="Tunnel">
       <a name="facing" val="south"/>
-      <a name="label" val="SAVE N DATA"/>
+      <a name="label" val="~HIT REGISTER"/>
     </comp>
-    <comp lib="1" loc="(1070,800)" name="AND Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="7" loc="(330,480)" name="main"/>
+    <comp lib="0" loc="(1060,350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="~HIT"/>
     </comp>
-    <comp lib="0" loc="(1610,380)" name="Tunnel">
+    <comp lib="0" loc="(220,510)" name="Pull Resistor"/>
+    <comp lib="0" loc="(250,300)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="SAVE N DATA2"/>
+    </comp>
+    <comp lib="0" loc="(180,530)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="CLK"/>
     </comp>
-    <comp lib="0" loc="(1570,400)" name="Pull Resistor">
+    <comp lib="0" loc="(140,660)" name="Tunnel">
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="3" loc="(940,310)" name="Comparator"/>
+    <comp lib="0" loc="(1130,930)" name="Pull Resistor">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="1" loc="(1550,240)" name="Controlled Buffer">
+    <comp lib="6" loc="(1476,275)" name="Text">
+      <a name="text" val="FITRST DATA SAVER"/>
+    </comp>
+    <comp lib="0" loc="(720,170)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="not hit &gt; 1?"/>
+    </comp>
+    <comp lib="1" loc="(680,800)" name="Controlled Buffer">
       <a name="control" val="left"/>
     </comp>
-    <comp lib="0" loc="(320,300)" name="Tunnel">
+    <comp lib="0" loc="(1140,510)" name="Splitter">
+      <a name="incoming" val="8"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+    </comp>
+    <comp lib="0" loc="(510,300)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="label" val="SAVE N DATA"/>
     </comp>
-    <comp lib="0" loc="(250,770)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(1140,800)" name="Pull Resistor">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(680,530)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="8"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(970,820)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MEM END"/>
     </comp>
+    <comp lib="7" loc="(230,740)" name="main"/>
   </circuit>
 </project>

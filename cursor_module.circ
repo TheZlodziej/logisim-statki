@@ -40,7 +40,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </lib>
   <lib desc="file#screen_xy_to_screen_data.circ" name="7"/>
   <lib desc="file#ship_xyr_to_screen_xy.circ" name="8"/>
-  <lib desc="file#KeyboardInputAWSD.circ" name="9"/>
+  <lib desc="file#keyboard_input.circ" name="9"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>

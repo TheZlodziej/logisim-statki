@@ -1,1 +1,2 @@
 https://docs.google.com/document/d/1aQoKYv3yRROrKQHqLMEhSi32c-rhXXOe/edit?usp=sharing&ouid=112123792231571534585&rtpof=true&sd=true
+<embed src="dokumentacja.pdf" type="application/pdf">
